@@ -1,13 +1,27 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: "Web Developer by Day, Game Developer by Night"
 ---
-
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div class="skyDay content">
+	<div class="container">
+		<div class="col-md-12">
+			<h1 class="homeTitle">Hello World! <span class="homeSubtitle"> Web Developer by Day...<div style="display: block; margin-top: 8px;"></div>Game Developer by Night!</span></h1>
+		</div>
+	</div>
+</div>
+<div class="groundDay"></div>
+<div class="container mainBody">
+	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 pull-right">
+		<h2>Recent Blog Posts</h2>
+		<ul class="posts">
+		    {% for post in site.posts %}
+		      <li><span>{{ post.date | date_to_string }}</span>: <a href="{{ post.url }}">{{ post.title }}</a></li>
+		    {% endfor %}
+		</ul>
+	</div>
+	<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+		<p>Hi there, I am Oliver Reardon, a 21 year old student based in the West Midlands of England. I am currently studying at Staffordshire University for a degree in Web Development. This year, I am on my placement year at <a href="http://www.rapidweb.biz"/>Rapid Web Ltd</a> where I have worked on several projects to expand my knowledge in Web development, web design, Search Engine Optimization and Ecommerce.</p>
+		<p>In my spare time, I have a passion for keeping up to date with the bleeding edge web technology and also have a desire to work on game concepts that have an interesting twist. I am also a keen guitarist and have owned several Electric and Acoustic guitars along with a vast amount of effects pedals and amplifiers.</p> 
+	<h2>[[RECENT BLOG POST]]</h2>
+	</div>
 </div>

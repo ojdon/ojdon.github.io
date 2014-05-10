@@ -1,0 +1,88 @@
+a:hover {
+	text-decoration: none;		
+}
+html { font-size: 62.5%; } 
+body { font-size: 16px; font-size: 1.6rem; font-family: 'Source Sans Pro', sans-serif;} 
+h1, h2, h3, h4, h5, h6 {margin: 0;text-align: justify;}
+p {text-align: justify;}
+
+
+.navbar {
+	background: #000;
+	border: none;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.navbar-collapse {
+	padding: 0;
+}
+
+.navbar-inverse .navbar-brand {
+	font-family: 'Press Start 2P', sans-serif;
+	font-size: 20px; font-size: 2.0rem;
+	color: #FE2;
+	text-align: center;
+	text-shadow: -1px 1px #F92672, -2px 2px #F92672, -3px 3px #F92672;
+	text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-brand:hover {
+	color: #FF0;
+}
+
+.navbar-toggle {
+	color: #EEE;
+}
+
+.nav li {
+	text-transform: uppercase;
+	font-family: 'Press Start 2P', sans-serif;
+	font-size: 11px; font-size: 1.1rem;
+	color: #EEE;
+	text-shadow: 0px 1px #111, 0px 2px #111;
+}
+
+.nav>li>a {
+	padding-left: 0;
+}
+
+.skyDay {
+	background: #49C;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.groundDay {
+	border-top: 4px solid #65D96B;
+	background: #43B749;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.homeTitle, .homeSubtitle {
+	font-family: 'Press Start 2P', sans-serif;
+	color: #EEE;
+	text-shadow: 0px 1px #111, 0px 2px #111;
+	margin: 0 auto;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.homeTitle {
+	font-size: 48px; font-size: 4.8rem;
+}
+
+.homeSubtitle {
+	font-size: 24px; font-size: 2.4rem;
+	display: block;
+	padding-top: 8px;
+}
+
+.mainBody {
+	margin-top: 50px;
+}
+
+.posts {
+	list-style: square;
+}
