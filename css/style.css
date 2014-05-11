@@ -27,7 +27,7 @@ p {text-align: justify;}
 	text-transform: uppercase;
 }
 
-.navbar-inverse .navbar-brand:hover {
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-brand:hover {
 	color: #FF0;
 }
 
@@ -45,7 +45,12 @@ p {text-align: justify;}
 
 .nav>li>a {
 	padding-left: 0;
+	color: #FEFEFE !important;
+	font-size: 14px; font-size: 1.4rem;
+	text-align: center;
+	margin: 0 auto;
 }
+
 
 .skyDay {
 	background: #49C;
