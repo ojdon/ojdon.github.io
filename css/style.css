@@ -3,7 +3,7 @@ a:hover {
 }
 html { font-size: 62.5%; } 
 body { font-size: 16px; font-size: 1.6rem; font-family: 'Source Sans Pro', sans-serif;} 
-h1, h2, h3, h4, h5, h6 {margin: 0;text-align: justify;}
+h1, h2, h3, h4, h5, h6 {margin: 0;margin-bottom: 16px;text-align: justify;}
 p {text-align: justify;}
 
 
@@ -90,4 +90,35 @@ p {text-align: justify;}
 
 .posts {
 	list-style: square;
+}
+
+
+/*Banner CSS*/
+.banner {
+	margin: 0 0 16px 0;
+	padding: 16px;
+	color: #FEFEFE;
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-style: normal;
+	
+}
+
+.twitter {
+	background: #4099FF;
+	border-bottom: 2px solid #2077DD;
+	text-shadow: 1px 1px #2077DD;
+}
+
+.googleplus {
+	background: #D34836;
+	border-bottom: 2px solid #B12614;
+	text-shadow: 1px 1px #B12614;
+}
+
+.github {
+	background: #9DDAEF;	
+	border-bottom: 2px solid #7BB8CD;
+	text-shadow: 1px 1px #7BB8CD;
 }
