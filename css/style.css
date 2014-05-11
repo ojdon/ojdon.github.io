@@ -55,7 +55,9 @@ h4 {
 	font-size: 16px; font-size: 1.6rem;
 }
 p {text-align: justify;}
-
+.lead {
+	font-weight: 400;
+}
 .navbar {
 	background: #000;
 	border: none;
