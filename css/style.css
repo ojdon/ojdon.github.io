@@ -3,9 +3,21 @@ a:hover {
 }
 html { font-size: 62.5%; } 
 body { font-size: 16px; font-size: 1.6rem; font-family: 'Source Sans Pro', sans-serif;} 
-h1, h2, h3, h4, h5, h6 {margin: 0;margin-bottom: 16px;text-align: justify;}
+h1, h2, h3, h4, h5, h6 {margin: 0; margin-bottom: 16px;text-align: left; font-family: 'Press Start 2P', sans-serif;
+color: #FE2;
+text-shadow: -1px 1px #F92672, -2px 2px #F92672, -3px 3px #F92672;
+text-transform: uppercase;
+}
+h2 {
+	font-size: 32px; font-size: 3.2rem;
+}
+h3 {
+	font-size: 20px; font-size: 2.0rem;
+}
+h4 {
+	font-size: 16px; font-size: 1.6rem;
+}
 p {text-align: justify;}
-
 
 .navbar {
 	background: #000;
