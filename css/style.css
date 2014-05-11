@@ -1,8 +1,41 @@
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 a:hover {
 	text-decoration: none;		
 }
 html { font-size: 62.5%; } 
 body { font-size: 16px; font-size: 1.6rem; font-family: 'Source Sans Pro', sans-serif;} 
+footer {text-align: center; padding: 32px;}
 h1, h2, h3, h4, h5, h6 {margin: 0; margin-bottom: 16px;text-align: left; font-family: 'Press Start 2P', sans-serif;
 color: #FE2;
 text-shadow: -1px 1px #F92672, -2px 2px #F92672, -3px 3px #F92672;
@@ -87,17 +120,17 @@ p {text-align: justify;}
 }
 
 .homeTitle {
-	font-size: 48px; font-size: 4.8rem;
+	font-size: 48px; font-size: 4.8rem; animation: fadein 2s;-moz-animation: fadein 2s; /* Firefox */-webkit-animation: fadein 2s; /* Safari and Chrome */-o-animation: fadein 2s; /* Opera */
 }
 
 .homeSubtitle {
 	font-size: 24px; font-size: 2.4rem;
 	display: block;
-	padding-top: 8px;
+	padding-top: 8px; animation: fadein 2s;-moz-animation: fadein 2s; /* Firefox */-webkit-animation: fadein 2s; /* Safari and Chrome */-o-animation: fadein 2s; /* Opera */
 }
 
 .mainBody {
-	margin-top: 50px;
+	margin-top: 50px;  animation: fadein 2s;-moz-animation: fadein 2s; /* Firefox */-webkit-animation: fadein 2s; /* Safari and Chrome */-o-animation: fadein 2s; /* Opera */
 }
 
 .posts {
@@ -114,7 +147,7 @@ p {text-align: justify;}
 	display: block;
 	text-align: center;
 	font-style: normal;
-	
+	text-transform: uppercase;
 }
 
 .twitter {
