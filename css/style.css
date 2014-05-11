@@ -30,7 +30,11 @@
         opacity: 1;
     }
 }
+a {
+	color: #F92672;
+}
 a:hover {
+	color: #B50230;
 	text-decoration: none;		
 }
 html { font-size: 62.5%; } 
