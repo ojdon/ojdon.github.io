@@ -31,7 +31,7 @@
 	color: inherit;
 }
 .title > a:hover {
-	color: #FF0;
+	color: #FE2;
 }
 a {
 	color: #F92672;
@@ -41,9 +41,9 @@ a:hover {
 	text-decoration: none;		
 }
 html { font-size: 62.5%; } 
-body { font-size: 20px; font-size: 2.0rem; font-family: 'Lato', 'Fira Sans Light', 'Coconut', 'Open Sans', Arial, sans-serif; font-weight: 300; -webkit-text-stroke: 1px rgba(0, 0, 0, 0.1);} 
+body { font-size: 16px; font-size: 1.6rem; font-family: 'Lato', 'Fira Sans Light', 'Coconut', 'Open Sans', Arial, sans-serif; font-weight: 300; -webkit-text-stroke: 1px rgba(0, 0, 0, 0.1);} 
 footer {text-align: center; padding: 32px;}
-h1, h2, h3, h4, h5, h6 {margin: 0; margin-bottom: 16px;text-align: left; font-family: 'Press Start 2P', 'Fira Sans Bold', 'Copperplate', 'Copperplate Gothic Light', 'Open Sans', Arial, sans-serif;
+h1, h2, h3, h4, h5, h6 {margin: 0; margin-top: 32px; margin-bottom: 32px;text-align: left; font-family: 'Press Start 2P', 'Fira Sans Bold', 'Copperplate', 'Copperplate Gothic Light', 'Open Sans', Arial, sans-serif;
 color: #FE2;
 text-shadow: -1px 1px #F92672, -2px 2px #F92672, -3px 3px #F92672;
 text-transform: uppercase;
@@ -57,10 +57,9 @@ h3 {
 h4 {
 	font-size: 16px; font-size: 1.6rem;
 }
+li {list-style: square;}
 p {text-align: justify;}
-.lead {
-	font-weight:400;
-}
+
 .navbar {
 	background: #222;
 	border: none;
@@ -83,7 +82,7 @@ p {text-align: justify;}
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-brand:hover {
-	color: #FF0;
+	color: #FE2;
 }
 
 .navbar-toggle {
@@ -127,7 +126,7 @@ p {text-align: justify;}
 .groundDayTiles {
 	background:url('/assets/tiles.png') repeat-x;
 	height: 149px;
-	margin-top: -21px;
+	margin-top: -22px;
 }
 
 .homeTitle, .homeSubtitle {
@@ -153,10 +152,6 @@ p {text-align: justify;}
 	margin-top: 50px; 
 }
 
-.posts {
-	list-style: square;
-}
-
 .post-content {
 	padding-top: 40px;
 }
@@ -168,6 +163,8 @@ p {text-align: justify;}
 	text-align: center;
 	margin: 0 auto;
 }
+
+.text-center {text-align: center;}
 /*Banner CSS*/
 .banner {
 	margin: 0 0 16px 0;
