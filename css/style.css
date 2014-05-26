@@ -124,6 +124,12 @@ p {text-align: justify;}
 	padding-bottom: 32px;
 }
 
+.groundDayTiles {
+	background:url('/assets/tiles.png') repeat-x;
+	height: 149px;
+	margin-top: -21px;
+}
+
 .homeTitle, .homeSubtitle {
 	font-family: 'Press Start 2P', sans-serif;
 	color: #EEE;
