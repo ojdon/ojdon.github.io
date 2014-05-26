@@ -1,0 +1,60 @@
+---
+layout: default
+title: "Blog"
+---
+<div class="container mainBody fadein">
+	<div class="col-xs-12 col-sm-12 col-md-offset-2 col-lg-offset-2 col-md-8 col-lg-8">
+		<ul>
+			<!--
+			{% for post in site.posts limit 4 %}
+	    		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+	    		<p><span>{{ post.date | date_to_string }}</span></p>
+        		{{ post.content | strip_html | truncatewords:75}}
+            	<a href="{{ post.url }}">Read more...</a><br>
+            	
+            	{%if site.posts.first.id != '/blog/first-post'%}
+            		<hr>
+            	{% endif %} 
+	    	{% endfor %}!-->
+    	</ul>
+
+      {% for post in paginator.posts %}
+        <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p class="author">
+          <span class="date">{{ post.date | date_to_string }}</span>
+        </p>
+        <div class="content">
+          {{ post.content }}
+          <hr>
+        </div>
+      {% endfor %}
+
+
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pull-center">
+    <ul class="pagination ">
+      {% if paginator.previous_page %}
+        <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="glyphicon glyphicon-chevron-left"></i> Prev</a></li>
+      {% else %}
+        <li class="disabled"><span>Prev</span></li>
+      {% endif %}
+
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <li class="active"><a href="#">{{ page }}<span class="sr-only">(current)</span></a></li>
+        {% elsif page == 1 %}
+          <li><a href="{{ '/blog/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+        {% else %}
+          <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+        {% endif %}
+      {% endfor %}
+
+      {% if paginator.next_page %}
+        <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next <i class="glyphicon glyphicon-chevron-right"></i></a></li>
+      {% else %}
+        <li class="disabled"><span>Next</span></li>
+      {% endif %}
+    </ul>
+  </div>
+
+	</div>
+</div>
