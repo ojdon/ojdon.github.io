@@ -152,6 +152,10 @@ p {text-align: justify;}
 	margin-top: 50px;
 }
 
+.meta {
+  font-size: 14px; font-size: 1.4rem; 
+}
+
 .post-content {
 	padding-top: 40px;
 }
