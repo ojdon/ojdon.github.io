@@ -2,7 +2,7 @@
 layout: post
 title:  "Add new language to Atom spell check"
 date:   2014-10-21 13:15:00
-categories: site update
+categories: tips and tricks
 ---
 I am using LaTeX to produce my final year project research report for my University studies. It's a fantastic and robust way for creating academic reports when compared to producing one using a word processor such as Google Docs or Microsoft Word as it gives you much more flexibility when it comes to displaying formulas and other text that requires complex formatting options.
 
