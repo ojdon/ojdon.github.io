@@ -45,16 +45,18 @@ It responsive as it uses the full width of the HTML element it is nested in. The
 In order to use the CSS3 Social Banners, you will need to include the stylesheet in the <head> tags of your webpage:
 
 {% highlight html %}
-<link rel="stylesheet" href="social-icons.css">
+  <link rel="stylesheet" href="social-icons.css">
 {% endhighlight %}
 
 And then you need to just add the Social Banner you wish to use:
 
 {% highlight html %}
-<div class="social-icon twitter">Follow me on Twitter</div>
+  <div class="social-icon twitter">Follow me on Twitter</div>
 {% endhighlight %}
 
 Simple as that!
+
+Make sure to check out the [demo page](http://ojdon.github.io/projects/social-banners/) to see the social banners in action!
 
 If you wish for a Social Banner to be created for you then please provide me with the social platform that you desire and their brand colour by either raising an issue on the GitHub repository or by sending me a tweet via [my Twitter](http://twitter.com/ojdon) profile.
 
