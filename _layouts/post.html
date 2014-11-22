@@ -5,8 +5,15 @@ layout: default
 	<div class="col-xs-12 col-sm-12 col-md-offset-2 col-lg-offset-2 col-md-8 col-lg-8 post-content">
 		<h2>{{ page.title }}</h2>
 		<hr>
-		<p class="meta">{{ page.date | date_to_string }} Posted by <a href="https://plus.google.com/u/0/111804847061500742496?rel=author">Ollie Reardon</a></p>
-		<hr>
+		<div class="row">
+			<div class="col-xs-6">
+				<p class="date">{{ page.date | date: "%-d %B %Y" }}</p>
+			</div>
+			<div class="col-xs-6">
+				<p class="meta text-right">Posted by <a href="https://plus.google.com/u/0/111804847061500742496?rel=author">Ollie Reardon</a></p>
+
+			</div>
+		</div>
 		<div class="post">
 			{{ content }}
 			<p>Join the discussion! Contact me via <a href="https://twitter.com/ojdon">Twitter</a> or <a href="https://plus.google.com/u/0/111804847061500742496?rel=author">Google+</a></p>
