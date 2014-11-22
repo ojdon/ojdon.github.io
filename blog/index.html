@@ -6,9 +6,17 @@ title: "Blog"
 	<div class="col-xs-12 col-sm-12 col-md-offset-2 col-lg-offset-2 col-md-8 col-lg-8">
     {% for post in paginator.posts %}
       <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p class="author">
-        <span class="date">{{ post.date | date_to_string }}</span>
-      </p>
+      <hr>
+			<div class="row">
+				<div class="col-xs-6">
+					<p class="date">{{ post.date | date: "%-d %B %Y" }}</p>
+				</div>
+				<div class="col-xs-6">
+					<p class="meta text-right">Posted by <a href="https://plus.google.com/u/0/111804847061500742496?rel=author">Ollie Reardon</a></p>
+
+				</div>
+			</div>
+
       <div class="content">
         {{ post.content }}
         <hr>
