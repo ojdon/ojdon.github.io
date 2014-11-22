@@ -19,8 +19,10 @@ title: "Web Developer by Day, Game Developer by Night"
 		<hr>
 	{% assign post = site.posts.first %}
   	{% assign content = post.content %}
-	<h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-	{{ post.content }}
-	<p>Make sure to check out my previous blog posts <a href="/blog/"> here</a>.</p>
+		<h2 class="title">Latest Blog: <a href="{{ post.url }}">{{ post.title }}</a></h2>
+		{{ post.excerpt }}
+
+
+	<p>Read the <a href="{{ post.url }}">full article</a>. Make sure to check out the rest of my <a href="/blog/"> blog posts</a>.</p>
 	</div>
 </div>
