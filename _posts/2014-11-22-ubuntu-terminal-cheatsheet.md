@@ -4,7 +4,7 @@ title:  "Understanding Ubuntu: Terminal Cheatsheet"
 date:   2014-11-22 11:25:00
 categories: linux
 ---
-###General Unix-like commands
+###General Linux commands
 cd – Change directory
 
 cd .. – Go Back a directory
