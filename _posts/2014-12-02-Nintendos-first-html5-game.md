@@ -6,7 +6,7 @@ categories: gaming
 ---
 <div class="text-center">
   <iframe width="560" height="315" src="//www.youtube.com/embed/tK8ndslCYz0" frameborder="0" allowfullscreen></iframe>
-  <p>Mario vs Donkey Kong seen at 4:31</p>
+  <p class="text-center">Mario vs Donkey Kong seen at 4:31</p>
 </div>
 
 As a Wii U owner myself, I was excited to see this video shown on the Nintendo Wii U eShop which features upcoming titles for the Wii U console over the next year or so. One of the games that stood out to me was the trailer for the "Mario vs Donkey Kong" game which was originally shown to the public at this year's Game Developers Conference.
