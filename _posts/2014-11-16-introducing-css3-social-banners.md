@@ -56,7 +56,7 @@ And then you need to just add the Social Banner you wish to use:
 
 Simple as that!
 
-Make sure to check out the [demo page](http://ojdon.github.io/projects/social-banners/) to see the social banners in action!
+Make sure to check out the [demo page](http://htmlpreview.github.io/?https://raw.githubusercontent.com/ojdon/css3-social-banners/master/demo.html) to see the social banners in action!
 
 If you wish for a Social Banner to be created for you then please provide me with the social platform that you desire and their brand colour by either raising an issue on the GitHub repository or by sending me a tweet via [my Twitter](http://twitter.com/ojdon) profile.
 
