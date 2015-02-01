@@ -1,7 +1,7 @@
 name: Ollie Reardon
 description: "Web Developer by Day, Game Developer by Night"
 markdown: redcarpet
-highlighter: true
+highlighter: pygments
 permalink: /blog/:title
 paginate: 5
 paginate_path: "blog/page:num"
