@@ -3,42 +3,53 @@ layout: default
 title: "Portfolio"
 ---
 <div class="container mainBody fadein">
-  <div class="col-xs-12 col-sm-12 col-md-offset-2 col-lg-offset-2 col-md-8 col-lg-8">
-    <p>
-      If you wish to get in contact with me directly via email then please feel free to use the form below and enter out the required form fields. You can also keep up to date with my latest projects and bog posts by visiting several of my social network profiles using the corresponding banners.
-    </p>
-    <h2 class="title text-center">Contact me via Email</h2>
-    <form action="http://getsimpleform.com/messages?form_api_token=7f242ea280f454155a1a48bd0596e08d" class="form" method="post">
-    <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-    <input type='hidden' name='redirect_to' value='http://ojdon.github.io/contact/thank-you/' />
-    <!-- all your input fields here.... -->
-    <div class="form-group">
-      <label for="name">Name: </label>
-      <input type="text" class="form-control" placeholder="Your Name" name="name" />
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-offset-2 col-lg-offset-2 col-md-8 col-lg-8">
+      <p>
+        If you wish to get in contact with me directly via email then please feel free to use the form below and enter out the required form fields. You can also keep up to date with my latest projects and bog posts by visiting several of my social network profiles using the corresponding banners.
+      </p>
     </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6">
 
-    <div class="form-group">
-      <label for="email">Email: </label>
-      <input type="email" class="form-control" name="email" placeholder="Only used to reply back to you directly!" value="">
+      <h2 class="title text-center">Contact me via Email</h2>
+      <form action="http://getsimpleform.com/messages?form_api_token=7f242ea280f454155a1a48bd0596e08d" class="form" method="post">
+      <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+      <input type='hidden' name='redirect_to' value='http://ojdon.github.io/contact/thank-you/' />
+      <!-- all your input fields here.... -->
+      <div class="form-group">
+        <label for="name">Name: </label>
+        <input type="text" class="form-control" placeholder="Your Name" name="name" />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email: </label>
+        <input type="email" class="form-control" name="email" placeholder="Only used to reply back to you directly!" value="">
+      </div>
+
+      <div class="form-group">
+        <label for="title">Email Subject: </label>
+        <input type="text" class="form-control" placeholder="Email Subject" name="title" />
+      </div>
+
+      <div class="form-group">
+        <label for="message">Email Message: </label>
+        <textarea name='message' class="form-control" placeholder="Type your message in here..."></textarea>
+      </div>
+      <br />
+
+      <input class="btn btn-primary pull-right" type='submit' value='Send email' />
+      <br />
+      <br />
+    </form>
+
+  </div>
+  <div class="col-xs-12 col-sm-12 col-md-6">
+      <h2 class="title text-center">Stay in touch</h2>
+      <a href="//twitter.com/ojdon"><i class="twitter banner">TWITTER</i></a>
+      <a href="//plus.google.com/111804847061500742496"><i class="googleplus banner">GOOGLE+</i></a>
+      <a href="//github.com/ojdon"><i class="github banner">GITHUB</i></a>
     </div>
-
-    <div class="form-group">
-      <label for="title">Email Subject: </label>
-      <input type="text" class="form-control" placeholder="Email Subject" name="title" />
-    </div>
-
-    <div class="form-group">
-      <label for="message">Email Message: </label>
-      <textarea name='message' class="form-control" placeholder="Type your message in here..."></textarea>
-    </div>
-    <br />
-    
-    <input class="btn btn-primary" type='submit' value='Send email' />
-  </form>
-
-    <h2 class="title text-center">Stay in touch</h2>
-    <a href="//twitter.com/ojdon"><i class="twitter banner">TWITTER</i></a>
-    <a href="//plus.google.com/111804847061500742496"><i class="googleplus banner">GOOGLE+</i></a>
-    <a href="//github.com/ojdon"><i class="github banner">GITHUB</i></a>
   </div>
 </div>
