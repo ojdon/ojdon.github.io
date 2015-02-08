@@ -4,6 +4,10 @@ title:  "Top Laravel 5 Features"
 date:   2015-02-08 15:00:00
 categories: programming
 ---
+<div class="image-center">
+  <img src="http://i.imgur.com/8GSwtnO.png" class="img-responsive text-center" alt="Laravel Logo" title="Laravel Logo"/>
+</div>
+
 Over the weekend, I started a brand new project using Laravel, the MVC-framework for PHP based projects. For those who haven't checked it out already, last week on the 4th of February, they have finally released the fifth iteration of Laravel. Just like with the release of Laravel 4, it brought some big new features and some architecture changes to your Laravel based project, therefore a few days of maintenance may be required to get your project using the Laravel 5 codebase. Read on for a rundown of a few new changes and features which I have found to be extremely useful.
 
 ## New project structure
