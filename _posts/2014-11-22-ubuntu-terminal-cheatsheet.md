@@ -4,7 +4,7 @@ title:  "Understanding Ubuntu: Terminal Cheatsheet"
 date:   2014-11-22 11:25:00
 categories: linux
 ---
-###General Linux commands
+### General Linux commands
 cd – Change directory
 
 cd .. – Go Back a directory
@@ -35,7 +35,7 @@ cat <filename> – See the contents of a file
 
 clear – Clear the current terminal display
 
-###Ubuntu Specific Commands
+### Ubuntu Specific Commands
 sudo apt-get update – Ensures that the repositories have the latest packages available.
 
 sudo apt-get upgrade – Upgrades installed packages
@@ -50,7 +50,7 @@ sudo apt-get autoremove – Removes any unused dependencies
 
 sudo apt-get do-release-upgrade – Upgrades Ubuntu to a new version
 
-###Useful commands for server packages
+### Useful commands for server packages
 edit php.ini – sudo nano /etc/php5/apache2/php.ini
 
 edit virtual hosts – sudo nano /etc/apache2/sites_available/new_config
