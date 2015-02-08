@@ -8,11 +8,11 @@ I am using LaTeX to produce my final year project research report for my Univers
 
 Personally, I don't use LaTeX specific editors such as Texmaker as I prefer to just produce code, blog posts and other forms of writing in the open-source code editor of my choice, Atom by GitHub. For the moment, I have only installed the LaTeX syntax highlighter from the package repository from the preference tab and I am all set to get writing my report.
 
-##The Problem
+### The Problem
 
 However, once I started to write large blocks of text I noticed that the spell checker wasn't checking for any misspellings as I type, even though it was working for plain text files. I then spent a few minutes looking into how to add new file extensions for Atom's spell checker package to check while I work on them.
 
-##The Solution
+### The Solution
 
 All you need to do is open up the settings and in the left hand pane scroll down and click the "Spell Check" package. From here the settings should open up for the package. Half way down the settings there is a text field labelled as "Gammars". In this text field you want to append your currently entered Grammars with a comma (Or I'd advise to type out the "Grammars" you see listed before clicking into the field if you have never added a new one before) and add in the following word:
 
