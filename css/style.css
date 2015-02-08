@@ -158,6 +158,12 @@ p {text-align: justify;}
 	padding-top: 8px;
 }
 
+.image-center img {
+  margin: 0 auto;
+  text-align: center;
+  padding: 16px 8px;
+}
+
 .mainBody {
 	margin-top: 50px;
 }
