@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "End Credits - Steamworld Dig"
-date:   2014-12-02 22:10:00
+date:   2015-02-28 22:10:00
 categories: gaming
 ---
 I'll be honest with you. I was so ashamed of my game collection, that I couldn't even look at it all! Not because my tastes in video games were bad, but because I had hardly completed any of them. I'm sure there is a lot of you reading this now that have a vast collection of games yet you have probably only completed a small minority. Heck, I bet there are only a handful games in your collection that you've played through a second time once completing. Don't worry, you've probably been busy studying or working, or like myself, both!
@@ -16,4 +16,4 @@ As you progress through the mine, not only do you gain special abilities such as
 
 Once the boss has been defeated. You're done! If I remember correctly, it took me around 4 hours of gameplay to complete. I definitely would sit down and play it again and maybe not rush to the boss as quickly as I did. Anyone who has got Steamworld Dig sitting unplayed in their library I definitely recommend the game, especially if you enjoy small 'pick up and play' independent titles.
 
-As Steamworld Dig was a game that I completed from start to finish in just one month, I decided that my next game that I would complete would be one that I have had sitting unfinished in my collection for a while. Therefore, I picked Season 2 of Telltale's 'The Walking Dead video game' as I had got through a few of the episodes before I had to wait for the rest to be released, which, unfortunately, I never resumed. 
+As Steamworld Dig was a game that I completed from start to finish in just one month, I decided that my next game that I would complete would be one that I have had sitting unfinished in my collection for a while. Therefore, I picked Season 2 of Telltale's 'The Walking Dead video game' as I had got through a few of the episodes before I had to wait for the rest to be released, which, unfortunately, I never resumed.
