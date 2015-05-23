@@ -157,7 +157,9 @@ p {text-align: justify;}
 	display: block;
 	padding-top: 8px;
 }
-
+.homeSubSubtitle {
+	display: block; margin-top: 8px;
+}
 .image-center img {
   margin: 0 auto;
   text-align: center;
