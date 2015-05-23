@@ -1,0 +1,3 @@
+[submodule "css/css3-social-banners"]
+	path = css/css3-social-banners
+	url = git@github.com:ojdon/css3-social-banners.git
