@@ -143,7 +143,7 @@ p {text-align: justify;}
 .homeTitle, .homeSubtitle {
 	font-family: 'Press Start 2P', sans-serif;
 	color: #EEE;
-	text-shadow: 0px 1px #111, 0px 2px #111;
+	text-shadow: -1px 1px #111, -2px 2px #111, -3px 3px #111;
 	margin: 0 auto;
 	text-align: center;
 	text-transform: uppercase;
