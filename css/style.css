@@ -119,11 +119,12 @@ p {text-align: justify;}
   text-align: left;
 }
 .skyDay {
-	background: #49C;
+	background-color: #44AAEE;
+	background-image: url(../assets/bg.png);
 	padding-top: 100px;
-  padding-top: 39vh;
+  	padding-top: 39vh;
 	padding-bottom: 100px;
-  padding-bottom: 39vh;
+  	padding-bottom: 39vh;
 }
 
 .groundDay {
