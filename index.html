@@ -4,24 +4,27 @@ title: "Web Developer by Day, Game Developer by Night"
 ---
 <div class="skyDay content">
 	<div class="container">
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-			<h1 class="homeTitle fadein">Ollie Reardon <span class="homeSubtitle fadein"> Web Developer by Day...<div class="homeSubSubtitle"></div>Game Developer by Night!</span></h1>
+		<div class="row">
+			<div class="col-xs-12">
+				<h1 class="homeTitle fadein">Ollie Reardon <span class="homeSubtitle fadein"> Web Developer by Day...<span class="homeSubSubtitle"></span>Game Developer by Night!</span></h1>
+			</div>
 		</div>
 	</div>
 </div>
 <div class="groundDay"></div>
 <div class="groundDayTiles"></div>
 <div class="container mainBody fadein">
+	<div class="row">
+		<div class="col-md-offset-2 col-md-8">
+			<p class="lead">Hello world! I'm Oliver Reardon, a graduate student, who is currently located in the West Midlands of England. I have studied at Staffordshire University for a degree in Web Development. Now, I work at <a href="http://www.rapidweb.biz">Rapid Web Ltd</a> where I have worked on several projects to expand my knowledge in web development, web design, Search Engine Optimization and Ecommerce.</p>
+			<hr>
+			{% assign post = site.posts.first %}
+	  		{% assign content = post.content %}
+			<h2 class="title">Latest Blog: <a href="{{ post.url }}">{{ post.title }}</a></h2>
+			{{ post.excerpt }}
 
-	<div class="col-xs-12 col-sm-12 col-md-offset-2 col-lg-offset-2 col-md-8 col-lg-8">
-		<p class="lead">Hello world! I'm Oliver Reardon, a graduate student, who is currently located in the West Midlands of England. I have studied at Staffordshire University for a degree in Web Development. Now, I work at <a href="http://www.rapidweb.biz"/>Rapid Web Ltd</a> where I have worked on several projects to expand my knowledge in web development, web design, Search Engine Optimization and Ecommerce.</p>
-		<hr>
-	{% assign post = site.posts.first %}
-  	{% assign content = post.content %}
-		<h2 class="title">Latest Blog: <a href="{{ post.url }}">{{ post.title }}</a></h2>
-		{{ post.excerpt }}
 
-
-	<p>Read the <a href="{{ post.url }}">full article</a>. Make sure to check out the rest of my <a href="/blog/"> blog posts</a>.</p>
+			<p>Read the <a href="{{ post.url }}">full article</a>. Make sure to check out the rest of my <a href="/blog/"> blog posts</a>.</p>
+		</div>
 	</div>
 </div>
