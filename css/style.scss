@@ -77,18 +77,16 @@ p {text-align: justify;}
 	padding: 0;
 }
 
-.navbar-inverse .navbar-brand {
+.navbar-brand {
 	font-family: 'Press Start 2P', 'Fira Sans Bold', 'Copperplate', 'Copperplate Gothic Light', 'Open Sans', Arial, sans-serif;
 	font-size: 1.6px; font-size: 1.6rem;
-	color: #FE2;
-	text-align: center;
+	color: #FE2 !important;
 	text-shadow: -1px 1px #F92672, -2px 2px #F92672, -3px 3px #F92672;
-	text-transform: uppercase;
 	padding: 16px 8px;
 }
 
-.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-brand:hover {
-	color: #FE2;
+.navbar-nav>li>a:hover, .navbar-brand:hover {
+	color: #FE2 !important;
 }
 
 .navbar-toggle {
@@ -118,7 +116,9 @@ p {text-align: justify;}
 }
 .skyDay {
 	background-color: #44AAEE;
-	background-image: url(../assets/bg.png);
+	background-image: url(../assets/bg.png); 
+	background-attachment: fixed;
+	background-position: center center;
 	padding-top: 100px;
   	padding-top: 35vh;
 	padding-bottom: 100px;
