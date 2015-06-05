@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Understanding Ubuntu: Terminal Cheatsheet"
+description: A quick run down of useful and most used commands that you would need in UNIX-like systems such as Ubuntu desktop, Linux servers and Apple OSX. 
 date:   2014-11-22 11:25:00
 categories: linux
 ---
