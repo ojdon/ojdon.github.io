@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Top Laravel 5 Features"
+description: See my top features that was introduced in the new release of Laravel Version 5, including Laravel Elixir, application namespacing, file generation and starter boilerplates and more.
 date:   2015-02-08 15:00:00
 categories: programming
 ---

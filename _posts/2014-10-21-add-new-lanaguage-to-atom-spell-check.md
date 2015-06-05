@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Add new language to Atom spell check"
+description: A tutorial on how to add a new language to GitHub's Atom editor spell check such as LaTeX and other new file extensions. 
 date:   2014-10-21 13:15:00
 categories: tips and tricks
 ---

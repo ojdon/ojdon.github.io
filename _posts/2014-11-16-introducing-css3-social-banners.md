@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Introducing... CSS3 Social Banners"
+description: CSS3 Social Banners is a free and open source project, for other web designers and developers to use. The social banners are completely mobile-first responsive CSS based.
 date:   2014-11-16 23:00:00
 categories: projects
 ---

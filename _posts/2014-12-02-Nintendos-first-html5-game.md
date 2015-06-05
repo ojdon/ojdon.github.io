@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Nintendo's First HTML5 Game?"
+description: An insight into Nintendo's possible first HTML5-based game using their famous Mario vs Donkey Kong characters for the Nintendo Wii U console.
 date:   2014-12-02 22:10:00
 categories: gaming
 ---
