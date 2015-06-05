@@ -120,9 +120,9 @@ p {text-align: justify;}
 	background-color: #44AAEE;
 	background-image: url(../assets/bg.png);
 	padding-top: 100px;
-  	padding-top: 39vh;
+  	padding-top: 35vh;
 	padding-bottom: 100px;
-  	padding-bottom: 39vh;
+  	padding-bottom: 35vh;
 }
 
 .groundDay {
@@ -142,17 +142,14 @@ p {text-align: justify;}
 	font-family: 'Press Start 2P', sans-serif;
 	color: #EEE;
 	text-shadow: -1px 1px #111, -2px 2px #111, -3px 3px #111;
-	margin: 0 auto;
-	text-align: center;
-	text-transform: uppercase;
 }
 
 .homeTitle {
-	font-size: 48px; font-size: 4.8rem;
+	font-size: 42px; font-size: 4.2rem;
 }
 
 .homeSubtitle {
-	font-size: 24px; font-size: 2.4rem;
+	font-size: 20px; font-size: 2.0rem;
 	display: block;
 	padding-top: 8px;
 }
