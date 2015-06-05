@@ -27,7 +27,7 @@ title: "Web Developer by Day, Game Developer by Night"
 			<hr>
 			{% assign post = site.posts.first %}
 	  		{% assign content = post.content %}
-			<h2 class="title">Latest Blog: <a href="{{ post.url }}">{{ post.title }}</a></h2>
+			<h2 class="title"><span class="latest-blog">Latest Blog: </span><a href="{{ post.url }}">{{ post.title }}</a></h2>
 			{{ post.excerpt }}
 
 
