@@ -51,24 +51,25 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-4 recent-posts">
-                <h3 class="heading">Recent Blog Posts</h3>
+                <h3 class="heading text-center">Recent Blog Posts</h3>
                 <ul class="list-unstyled posts">
                     {% for post in site.posts %}
                       <li><span>{{ post.date | date_to_string }}</span>: <a href="{{ post.url }}">{{ post.title }}</a></li>
                     {% endfor %}
                 </ul>
               </div>
-              <div class="col-sm-4">
-                <p class="name-year">
-                  Ollie Reardon - {{ site.time | date: '%Y' }}
-                </p>
-              </div>
-              <div class="col-sm-4 contact-me">
-                <h3 class="heading">Contact Me</h3>
+              <div class="col-sm-4 col-sm-push-4 contact-me">
+                <h3 class="heading text-center">Contact Me</h3>
                 <a href="//twitter.com/ojdon"><div class="social-icon twitter">TWITTER</div></a>
                 <a href="//plus.google.com/111804847061500742496"><div class="social-icon googleplus">GOOGLE+</div></a>
                 <a href="//github.com/ojdon"><div class="social-icon github">GITHUB</div></a>
               </div>
+              <div class="col-sm-4 col-sm-pull-4">
+                <p class="name-year">
+                  Ollie Reardon - {{ site.time | date: '%Y' }}
+                </p>
+              </div>
+              
             </div>
           </div>
 
