@@ -69,7 +69,6 @@ p {text-align: justify;}
 .navbar {
 	background: #222;
 	border: none;
-	border-bottom: 2px solid #000;
 	border-radius: 0;
 	margin-bottom: 0;
 }
@@ -85,6 +84,8 @@ p {text-align: justify;}
 	text-align: center;
 	text-shadow: -1px 1px #F92672, -2px 2px #F92672, -3px 3px #F92672;
 	text-transform: uppercase;
+	padding-top: 16px;
+	padding-bottom: 16px;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-brand:hover {
@@ -93,10 +94,7 @@ p {text-align: justify;}
 
 .navbar-toggle {
 	color: #EEE;
-}
-
-.navbar-toggle img {
-	padding-bottom: 5px;
+	border-radius: 0;
 }
 
 .nav li {
