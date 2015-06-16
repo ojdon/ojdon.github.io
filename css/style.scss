@@ -61,7 +61,7 @@ hr {
 	margin: 32px 0;
 }
 li {list-style: square;}
-p {text-align: justify;}
+p {text-align: justify; line-height: 2.36rem}
 .latest-blog {
 	display: block;
 	padding-bottom: 16px;
@@ -126,7 +126,7 @@ p {text-align: justify;}
 }
 .skyDay {
 	background-color: #4AE;
-	background-image: url(../assets/bg.png); 
+	background-image: url(../assets/bg.png);
 	background-attachment: fixed;
 	background-position: center center;
 	padding-top: 100px;
