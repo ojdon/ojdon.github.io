@@ -69,6 +69,21 @@
                 <p class="name-year">
                   Ollie Reardon - {{ site.time | date: '%Y' }}
                 </p>
+                <script src="http://coinwidget.com/widget/coin.js"></script>
+                <script>
+                CoinWidgetCom.go({
+                  wallet_address: "3B4rDt2esKpC8XecYH3zNVdx5gFPV9cYan"
+                  , currency: "bitcoin"
+                  , counter: "hide"
+                  , alignment: "bc"
+                  , qrcode: true
+                  , auto_show: false
+                  , lbl_button: "Donate"
+                  , lbl_address: "Donate Bitcoin:"
+                  , lbl_count: "donations"
+                  , lbl_amount: "BTC"
+                });
+                </script>
               </div>
 
             </div>
