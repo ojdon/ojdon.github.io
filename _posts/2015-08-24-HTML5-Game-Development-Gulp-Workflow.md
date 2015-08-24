@@ -138,4 +138,4 @@ You will now be able to run the following commands in order to achieve different
 
 `gulp watch` - Keeps a close eye on your specific JS files / folders and will run uglify whenever a change has been made, just like the `gulp build` command.
 
-Enjoy! If you have found gulp tasks, that I haven't listed in this post, that could be added to this game development gulp workflow then please feel free to contact me on Twitter or Google+ with your suggestions! 
+*Update: * I have made a [GitHub repository](https://github.com/ojdon/html5-game-development-gulp-workflow) for other HTML5 Game Developers to suggest tasks to be added to the 'gulpfile.js' by either opening an 'Issue' with your suggestion, or by creating a pull request. 
