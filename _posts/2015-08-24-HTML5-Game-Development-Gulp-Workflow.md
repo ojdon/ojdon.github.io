@@ -5,7 +5,7 @@ description: A gulp workflow that is specifically optimised for HTML5 Game Devel
 date:   2015-08-24 22:00:00
 categories: programming, gamedev, HTML5
 ---
-Last week, my friend [Jordan](https://twitter.com/DivineOmega) and I have started work on a game for the js13k competition. For those who don't know what the rules of the competition involve, you have an entire month to create a game in a 13kb zip archive. 
+Last week, my friend [Jordan](https://twitter.com/DivineOmega) and I have started work on a game for the [js13kgames competition](http://js13kgames.com/). For those who don't know what the rules of the competition involve, you have an entire month to create a game in a 13kb zip archive. 
 
 Luckily, as it's targeting HTML5 game developers to use JavaScript in order to create their games, this means that all the technology that goes into creating other web-based projects, such as your everyday websites, can be used into an HTML5 game development workflow.
 
