@@ -34,16 +34,16 @@
 
 .title > a {
 	color: inherit;
-}
-.title > a:hover {
-	color: #FE2;
+	&:hover {
+		color: #FE2;
+	}
 }
 a {
 	color: #F92672;
-}
-a:hover {
-	color: #B50230;
-	text-decoration: none;
+	&:hover {
+		color: #B50230;
+		text-decoration: none;
+	}
 }
 html { font-size: 62.5%; }
 body { background: #FEFEFE; font-size: 16px; font-size: 1.6rem; font-family: 'Lato', 'Fira Sans Light', 'Coconut', 'Open Sans', Arial, sans-serif; font-weight: 300; -webkit-text-stroke: 1px rgba(0, 0, 0, 0.1);}
@@ -197,7 +197,7 @@ p {text-align: justify; line-height: 2.36rem; margin: 16px 0; font-size: 16px; f
 	margin: 0 auto;
 }
 
-/*Bootstrap rewrite */
+/* Bootstrap Classes Rewrites */
 .pagination {
 	font-family: 'Press Start 2P', 'Fira Sans Bold', 'Copperplate', 'Copperplate Gothic Light', 'Open Sans', Arial, sans-serif; text-shadow: -1px 1px #F92672, -2px 2px #F92672; text-transform: uppercase;
 }
