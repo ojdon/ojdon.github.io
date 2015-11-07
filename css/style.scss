@@ -47,27 +47,43 @@ a {
 	}
 }
 html { font-size: 62.5%; }
-body { background: #FEFEFE; font-size: 16px; font-size: 1.6rem; font-family: 'Lato', 'Fira Sans Light', 'Coconut', 'Open Sans', Arial, sans-serif; font-weight: 300; -webkit-text-stroke: 1px rgba(0, 0, 0, 0.1);}
+body { background: #FEFEFE; font-size: 20px; font-size: 2.0rem; font-family: 'Lato', sans-serif; font-weight: 300; -webkit-text-stroke: 1px rgba(0, 0, 0, 0.1);}
 footer {text-align: center; background: #222; border-top: 2px solid #000; color: #FEFEFE; padding: 0; margin: 0; margin-top: 64px;}
-h1, h2, h3, h4, h5, h6 {margin: 0; margin-top: 32px; margin-bottom: 32px;text-align: left; font-family: 'Press Start 2P', 'Fira Sans Bold', 'Copperplate', 'Copperplate Gothic Light', 'Open Sans', Arial, sans-serif;
+h1, h2, h3, h4, h5, h6 {margin: 0; margin-top: 32px; margin-bottom: 32px;text-align: left; font-family: 'Press Start 2P', monospace;
 color: #FE2;
 text-shadow: -1px 1px #F92672, -2px 2px #F92672, -3px 3px #F92672;
 text-transform: uppercase;
 }
+h1 {
+	font-size: 36px;font-size: 3.6rem;
+
+}
 h2 {
-	font-size: 32px; font-size: 3.2rem;
+	font-size: 32px;font-size: 3.2rem;
+
 }
 h3 {
-	font-size: 20px; font-size: 2.0rem;
+	font-size: 28px;font-size: 2.8rem;
+
 }
 h4 {
-	font-size: 16px; font-size: 1.6rem;
+	font-size: 24px;font-size: 2.4rem;
+
+}
+h5 {
+	font-size: 20px;font-size: 2.0rem;
+
+}
+h6 {
+	font-size: 16px;font-size: 1.6rem;
+
 }
 hr {
 	margin: 32px 0;
 }
+label, li, p {font-size: 20px; font-size: 2.0rem !important}
 li {list-style: square;}
-p {text-align: justify; line-height: 2.36rem; margin: 16px 0; font-size: 16px; font-size: 1.6rem;}
+p {text-align: justify; line-height: 2.36rem; margin: 16px 0;}
 .latest-blog {
 	display: block;
 	padding-bottom: 16px;
@@ -84,7 +100,7 @@ p {text-align: justify; line-height: 2.36rem; margin: 16px 0; font-size: 16px; f
 }
 
 .navbar-brand {
-	font-family: 'Press Start 2P', 'Fira Sans Bold', 'Copperplate', 'Copperplate Gothic Light', 'Open Sans', Arial, sans-serif;
+	font-family: 'Press Start 2P', monospace;
 	font-size: 1.6px; font-size: 1.6rem;
 	color: #FE2 !important;
 	text-shadow: -1px 1px #F92672, -2px 2px #F92672, -3px 3px #F92672;
@@ -155,7 +171,7 @@ p {text-align: justify; line-height: 2.36rem; margin: 16px 0; font-size: 16px; f
 }
 
 .homeTitle, .homeSubtitle {
-	font-family: 'Press Start 2P', sans-serif;
+	font-family: 'Press Start 2P', monospace;
 	color: #EEE;
 	text-shadow: -1px 1px #111, -2px 2px #111, -3px 3px #111;
 }
@@ -182,10 +198,6 @@ p {text-align: justify; line-height: 2.36rem; margin: 16px 0; font-size: 16px; f
 	margin-top: 50px;
 }
 
-.meta {
-  font-size: 16px; font-size: 1.6rem;
-}
-
 .post-content {
 	padding-top: 40px;
 }
@@ -200,7 +212,7 @@ p {text-align: justify; line-height: 2.36rem; margin: 16px 0; font-size: 16px; f
 
 /* Bootstrap Classes Rewrites */
 .pagination {
-	font-family: 'Press Start 2P', 'Fira Sans Bold', 'Copperplate', 'Copperplate Gothic Light', 'Open Sans', Arial, sans-serif; text-shadow: -1px 1px #F92672, -2px 2px #F92672; text-transform: uppercase;
+	font-family: 'Press Start 2P', monospace; text-shadow: -1px 1px #F92672, -2px 2px #F92672; text-transform: uppercase;
 }
 .pagination>li>a, .pagination>li>span{
 	color: #FE2 !important;
@@ -216,4 +228,4 @@ p {text-align: justify; line-height: 2.36rem; margin: 16px 0; font-size: 16px; f
 	text-shadow: -1px 1px #333, -2px 2px #333 !important;
 }
 
-@media (min-width: 768px) {.modal-dialog {width: 90% !important;}}
+@media(min-width: 768px) {.modal-dialog {width: 90% !important;}}
