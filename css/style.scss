@@ -49,7 +49,7 @@ a {
 html { font-size: 62.5%; }
 body { background: #FEFEFE; font-size: 20px; font-size: 2.0rem; font-family: 'Lato', sans-serif; font-weight: 300; -webkit-text-stroke: 1px rgba(0, 0, 0, 0.1);}
 footer {text-align: center; background: #222; border-top: 2px solid #000; color: #FEFEFE; padding: 0; margin: 0; margin-top: 64px;}
-h1, h2, h3, h4, h5, h6 {margin: 0; margin-top: 32px; margin-bottom: 32px;text-align: left; font-family: 'Press Start 2P', monospace;
+h1, h2, h3, h4, h5, h6 {margin: 0; margin-top: 32px; margin-bottom: 32px;text-align: left; font-family: 'Press Start 2P', sans-serif;
 color: #FE2;
 text-shadow: -1px 1px #F92672, -2px 2px #F92672, -3px 3px #F92672;
 text-transform: uppercase;
@@ -95,7 +95,7 @@ p {text-align: justify; line-height: 2.36rem; margin: 16px 0;}
 	margin-bottom: 0;
 }
 .navbar-brand {
-	font-family: 'Press Start 2P', monospace;
+	font-family: 'Press Start 2P', sans-serif;
 	font-size: 1.6px; font-size: 1.6rem;
 	color: #FE2 !important;
 	text-shadow: -1px 1px #F92672, -2px 2px #F92672, -3px 3px #F92672;
@@ -166,7 +166,7 @@ p {text-align: justify; line-height: 2.36rem; margin: 16px 0;}
 }
 
 .homeTitle, .homeSubtitle {
-	font-family: 'Press Start 2P', monospace;
+	font-family: 'Press Start 2P', sans-serif;
 	color: #EEE;
 	text-shadow: -1px 1px #111, -2px 2px #111, -3px 3px #111;
 }
@@ -207,7 +207,7 @@ p {text-align: justify; line-height: 2.36rem; margin: 16px 0;}
 
 /* Bootstrap Classes Rewrites */
 .pagination {
-	font-family: 'Press Start 2P', monospace; text-shadow: -1px 1px #F92672, -2px 2px #F92672; text-transform: uppercase;
+	font-family: 'Press Start 2P', sans-serif; text-shadow: -1px 1px #F92672, -2px 2px #F92672; text-transform: uppercase;
 }
 .pagination>li>a, .pagination>li>span{
 	color: #FE2 !important;
