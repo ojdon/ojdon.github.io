@@ -1,6 +1,6 @@
 _site
 *.ai
-
+Gemfile.lock
 assets/100% /webdesign 100%.png
 
 assets/200%/webdesign 200%.png
