@@ -7,7 +7,7 @@
       <title>{{ page.title }} | {{ site.name }}</title>
       {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
       <meta name="author" content="Oliver Reardon">
-      <link rel="stylesheet" href="/css/style.css">
+      <noscript><link rel="stylesheet" href="/css/style.css"></noscript>
       <link rel="icon" href="/favicon.ico">
       <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
       <!--[if lt IE 9]>
@@ -64,6 +64,16 @@
 
         </footer>
         <!-- JavaScript !-->
+        <script>
+          var cb = function() {
+          var l = document.createElement('link'); l.rel = 'stylesheet';
+          l.href = '/css/style.css';
+          var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h); };
+          var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+                    webkitRequestAnimationFrame || msRequestAnimationFrame;
+          if (raf) raf(cb);
+          else window.addEventListener('load', cb);
+      </script>
         <script src="/js/fonts.js"></script>
         <script src="/bower_components/jquery/dist/jquery.min.js"></script>
         <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
