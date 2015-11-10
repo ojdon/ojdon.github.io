@@ -1,88 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>{{ page.title }} | {{ site.name }}</title>
-      {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-      <meta name="author" content="Oliver Reardon">
-      <noscript><link rel="stylesheet" href="/css/style.css"></noscript>
-      <link rel="icon" href="/favicon.ico">
-      <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.name }}</title>
+  {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+  <meta name="author" content="Oliver Reardon">
+  <noscript><link rel="stylesheet" href="/css/style.css"></noscript>
+  <link rel="icon" href="/favicon.ico">
+  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
       <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <![endif]-->
-      <style>
-        h2,hr{margin-top:20px}h2,ul{margin-bottom:10px}.container:after,.container:before,.row:after,.row:before{display:table;content:" "}.container:after,.container:before,.nav:after,.nav:before,.row:after,.row:before{content:" "}.container:after,.nav:after,.navbar-collapse:after,.navbar-header:after,.navbar:after,.row:after{clear:both}.navbar-brand,h2{text-shadow:-1px 1px #F92672,-2px 2px #F92672,-3px 3px #F92672}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}a{background-color:transparent}hr{box-sizing:content-box;height:0;margin-bottom:20px;border:0;border-top:1px solid #eee}button{color:inherit;font:inherit;margin:0;overflow:visible;text-transform:none;-webkit-appearance:button;cursor:pointer;font-family:inherit;font-size:inherit;line-height:inherit}.nav li,.text-uppercase,h2{text-transform:uppercase}button::-moz-focus-inner{border:0;padding:0}.col-md-10,.col-xs-6,.container{padding-left:15px;padding-right:15px}*,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body{margin:0;line-height:1.42857;color:#333;background-color:#fff}h2{font-weight:500;line-height:1.1}.text-right{text-align:right}.text-center{text-align:center}ul{margin-top:0}.container{margin-right:auto;margin-left:auto}@media (min-width:768px){.container{width:750px}.navbar{border-radius:4px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.row{margin-left:-15px;margin-right:-15px}.col-md-10,.col-xs-6{position:relative;min-height:1px}.col-xs-6{float:left;width:50%}@media (min-width:992px){.col-md-10{float:left;width:83.33333%}.col-md-offset-1{margin-left:8.33333%}}.collapse{display:none}.nav{margin-bottom:0;padding-left:0;list-style:none}.nav:after,.nav:before{display:table}.nav>li,.nav>li>a{display:block;position:relative}.nav>li>a{padding:10px 15px}.navbar-collapse:after,.navbar-collapse:before,.navbar-header:after,.navbar-header:before,.navbar:after,.navbar:before{content:" ";display:table}.navbar-collapse{overflow-x:visible;padding-right:15px;padding-left:15px;border-top:1px solid transparent;box-shadow:inset 0 1px 0 rgba(255,255,255,.1);-webkit-overflow-scrolling:touch}.container>.navbar-collapse,.container>.navbar-header{margin-right:-15px;margin-left:-15px}@media (min-width:768px){.navbar-header{float:left}.navbar-collapse{width:auto;border-top:0;box-shadow:none}.navbar-collapse.collapse{display:block!important;height:auto!important;padding-bottom:0;overflow:visible!important}.container>.navbar-collapse,.container>.navbar-header{margin-right:0;margin-left:0}.navbar>.container .navbar-brand{margin-left:-15px}}.navbar-brand{float:left;line-height:20px;height:50px}.navbar-toggle{position:relative;float:right;padding:9px 10px;margin-top:8px;margin-bottom:8px;background-color:transparent;background-image:none;border:1px solid transparent}.navbar-nav{margin:7.5px -15px}.navbar-nav>li>a{padding-top:10px;padding-bottom:10px;line-height:20px}@media (min-width:768px){.navbar-toggle{display:none}.navbar-nav{float:left;margin:0}.navbar-nav>li{float:left}.navbar-nav>li>a{padding-top:15px;padding-bottom:15px}}h2,hr{margin:32px 0}.navbar-inverse{background-color:#222;border-color:#090909}.navbar-inverse .navbar-brand,.navbar-inverse .navbar-nav>li>a{color:#9d9d9d}.navbar-inverse .navbar-toggle{border-color:#333}.navbar-inverse .navbar-collapse{border-color:#101010}@font-face{font-family:FontAwesome;src:url(../bower_components/font-awesome/fonts/fontawesome-webfont.eot?v=4.4.0);src:url(../bower_components/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.4.0) format("embedded-opentype"),url(../bower_components/font-awesome/fonts/fontawesome-webfont.woff2?v=4.4.0) format("woff2"),url(../bower_components/font-awesome/fonts/fontawesome-webfont.woff?v=4.4.0) format("woff"),url(../bower_components/font-awesome/fonts/fontawesome-webfont.ttf?v=4.4.0) format("truetype"),url(../bower_components/font-awesome/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular) format("svg");font-weight:400;font-style:normal}.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.fa-bars:before{content:""}.title>a{color:inherit}a{text-decoration:none;color:#F92672}html{-webkit-tap-highlight-color:transparent;font-size:62.5%}body{background:#FEFEFE;font-size:20px;font-size:2rem;font-family:Lato,sans-serif;font-weight:300;-webkit-text-stroke:1px rgba(0,0,0,.1)}.nav li,.navbar-brand,h2{font-family:'Press Start 2P',sans-serif}h2{text-align:left;color:#FE2;font-size:32px;font-size:3.2rem}li,p{font-size:20px;font-size:2rem!important}li{list-style:square}p{text-align:justify;line-height:2.36rem;margin:16px 0}.navbar{position:relative;min-height:50px;background:#222;border:none;border-radius:0;margin-bottom:0}.navbar-brand{font-size:1.6px;font-size:1.6rem;color:#FE2!important;padding:16px 16px 16px 8px}.navbar-collapse{padding:2px 0 0}.navbar-header{padding-left:8px}.navbar-toggle{color:#EEE;border-radius:0;margin-right:8px!important}.nav li{font-size:16px;font-size:1.6rem;color:#EEE;text-shadow:0 1px #111,0 2px #111}.nav>li>a{padding-left:0;color:#FEFEFE!important;font-size:16px;font-size:1.6rem;text-align:center;margin:0 auto}.mainBody{margin-top:50px}.fadein{animation:fadein 1s;-moz-animation:fadein 1s;-webkit-animation:fadein 1s;-o-animation:fadein 1s}
-      </style>
-    </head>
-    <body>
-         <div class="navbar navbar-inverse" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-                  <a class="navbar-brand text-center text-uppercase" href="/">{{ site.name }}</a>
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="fa fa-bars"></span> Menu
-                  </button>
-            </div>
-            <div class="collapse navbar-collapse">
-              <ul class="nav navbar-nav">
-                <li><a href="/blog/">Blog</a></li>
-                <li><a href="/skills/">Skills</a></li>
-                <li><a href="/portfolio/">Portfolio</a></li>
-                <li><a href="/contact/">Contact</a></li>
-              </ul>
-            </div><!--/.nav-collapse -->
+        <![endif]-->
+        <style>
+          h2,hr{margin-top:20px}h2,ul{margin-bottom:10px}.container:after,.container:before,.row:after,.row:before{display:table;content:" "}.container:after,.container:before,.nav:after,.nav:before,.row:after,.row:before{content:" "}.container:after,.nav:after,.navbar-collapse:after,.navbar-header:after,.navbar:after,.row:after{clear:both}.navbar-brand,h2{text-shadow:-1px 1px #F92672,-2px 2px #F92672,-3px 3px #F92672}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}a{background-color:transparent}hr{box-sizing:content-box;height:0;margin-bottom:20px;border:0;border-top:1px solid #eee}button{color:inherit;font:inherit;margin:0;overflow:visible;text-transform:none;-webkit-appearance:button;cursor:pointer;font-family:inherit;font-size:inherit;line-height:inherit}.nav li,.text-uppercase,h2{text-transform:uppercase}button::-moz-focus-inner{border:0;padding:0}.col-md-10,.col-xs-6,.container{padding-left:15px;padding-right:15px}*,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body{margin:0;line-height:1.42857;color:#333;background-color:#fff}h2{font-weight:500;line-height:1.1}.text-right{text-align:right}.text-center{text-align:center}ul{margin-top:0}.container{margin-right:auto;margin-left:auto}@media (min-width:768px){.container{width:750px}.navbar{border-radius:4px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.row{margin-left:-15px;margin-right:-15px}.col-md-10,.col-xs-6{position:relative;min-height:1px}.col-xs-6{float:left;width:50%}@media (min-width:992px){.col-md-10{float:left;width:83.33333%}.col-md-offset-1{margin-left:8.33333%}}.collapse{display:none}.nav{margin-bottom:0;padding-left:0;list-style:none}.nav:after,.nav:before{display:table}.nav>li,.nav>li>a{display:block;position:relative}.nav>li>a{padding:10px 15px}.navbar-collapse:after,.navbar-collapse:before,.navbar-header:after,.navbar-header:before,.navbar:after,.navbar:before{content:" ";display:table}.navbar-collapse{overflow-x:visible;padding-right:15px;padding-left:15px;border-top:1px solid transparent;box-shadow:inset 0 1px 0 rgba(255,255,255,.1);-webkit-overflow-scrolling:touch}.container>.navbar-collapse,.container>.navbar-header{margin-right:-15px;margin-left:-15px}@media (min-width:768px){.navbar-header{float:left}.navbar-collapse{width:auto;border-top:0;box-shadow:none}.navbar-collapse.collapse{display:block!important;height:auto!important;padding-bottom:0;overflow:visible!important}.container>.navbar-collapse,.container>.navbar-header{margin-right:0;margin-left:0}.navbar>.container .navbar-brand{margin-left:-15px}}.navbar-brand{float:left;line-height:20px;height:50px}.navbar-toggle{position:relative;float:right;padding:9px 10px;margin-top:8px;margin-bottom:8px;background-color:transparent;background-image:none;border:1px solid transparent}.navbar-nav{margin:7.5px -15px}.navbar-nav>li>a{padding-top:10px;padding-bottom:10px;line-height:20px}@media (min-width:768px){.navbar-toggle{display:none}.navbar-nav{float:left;margin:0}.navbar-nav>li{float:left}.navbar-nav>li>a{padding-top:15px;padding-bottom:15px}}h2,hr{margin:32px 0}.navbar-inverse{background-color:#222;border-color:#090909}.navbar-inverse .navbar-brand,.navbar-inverse .navbar-nav>li>a{color:#9d9d9d}.navbar-inverse .navbar-toggle{border-color:#333}.navbar-inverse .navbar-collapse{border-color:#101010}@font-face{font-family:FontAwesome;src:url(../bower_components/font-awesome/fonts/fontawesome-webfont.eot?v=4.4.0);src:url(../bower_components/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.4.0) format("embedded-opentype"),url(../bower_components/font-awesome/fonts/fontawesome-webfont.woff2?v=4.4.0) format("woff2"),url(../bower_components/font-awesome/fonts/fontawesome-webfont.woff?v=4.4.0) format("woff"),url(../bower_components/font-awesome/fonts/fontawesome-webfont.ttf?v=4.4.0) format("truetype"),url(../bower_components/font-awesome/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular) format("svg");font-weight:400;font-style:normal}.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.fa-bars:before{content:""}.title>a{color:inherit}a{text-decoration:none;color:#F92672}html{-webkit-tap-highlight-color:transparent;font-size:62.5%}body{background:#FEFEFE;font-size:20px;font-size:2rem;font-family:Lato,sans-serif;font-weight:300;-webkit-text-stroke:1px rgba(0,0,0,.1)}.nav li,.navbar-brand,h2{font-family:'Press Start 2P',sans-serif}h2{text-align:left;color:#FE2;font-size:32px;font-size:3.2rem}li,p{font-size:20px;font-size:2rem!important}li{list-style:square}p{text-align:justify;line-height:2.36rem;margin:16px 0}.navbar{position:relative;min-height:50px;background:#222;border:none;border-radius:0;margin-bottom:0}.navbar-brand{font-size:1.6px;font-size:1.6rem;color:#FE2!important;padding:16px 16px 16px 8px}.navbar-collapse{padding:2px 0 0}.navbar-header{padding-left:8px}.navbar-toggle{color:#EEE;border-radius:0;margin-right:8px!important}.nav li{font-size:16px;font-size:1.6rem;color:#EEE;text-shadow:0 1px #111,0 2px #111}.nav>li>a{padding-left:0;color:#FEFEFE!important;font-size:16px;font-size:1.6rem;text-align:center;margin:0 auto}.mainBody{margin-top:50px}.fadein{animation:fadein 1s;-moz-animation:fadein 1s;-webkit-animation:fadein 1s;-o-animation:fadein 1s}
+        </style>
+      </head>
+      <body>
+       <div class="navbar navbar-inverse" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand text-center text-uppercase" href="/">{{ site.name }}</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="fa fa-bars"></span> Menu
+            </button>
           </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="/blog/">Blog</a></li>
+              <li><a href="/skills/">Skills</a></li>
+              <li><a href="/portfolio/">Portfolio</a></li>
+              <li><a href="/contact/">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
         </div>
-        {{ content }}
-        <footer>
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-7 recent-posts">
-                <h3 class="heading">Recent Blog Posts</h3>
-                <ul class="list-unstyled posts">
-                    {% for post in site.posts %}
-                      <li><span>{{ post.date | date_to_string }}</span>: <a href="{{ post.url }}">{{ post.title }}</a></li>
-                    {% endfor %}
-                </ul>
-              </div>
-              <div class="col-sm-5 contact-me">
-                <h3 class="heading text-center">Contact Me</h3>
-                <a href="//twitter.com/ojdon" target="_blank"><span class="social-icon twitter">TWITTER</span></a>
-                <a href="//plus.google.com/111804847061500742496" target="_blank"><span class="social-icon googleplus">GOOGLE+</span></a>
-                <a href="//github.com/ojdon" target="_blank"><span class="social-icon github">GITHUB</span></a>
-              </div>
+      </div>
+      {{ content }}
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-7 recent-posts">
+              <h3 class="heading">Recent Blog Posts</h3>
+              <ul class="list-unstyled posts">
+                {% for post in site.posts %}
+                <li><span>{{ post.date | date_to_string }}</span>: <a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+              </ul>
             </div>
-            <p class="text-center">Ollie Reardon - {{ site.time | date: '%Y' }}</p>
+            <div class="col-sm-5 contact-me">
+              <h3 class="heading text-center">Contact Me</h3>
+              <a href="//twitter.com/ojdon" target="_blank"><span class="social-icon twitter">TWITTER</span></a>
+              <a href="//plus.google.com/111804847061500742496" target="_blank"><span class="social-icon googleplus">GOOGLE+</span></a>
+              <a href="//github.com/ojdon" target="_blank"><span class="social-icon github">GITHUB</span></a>
+            </div>
           </div>
+          <p class="text-center">Ollie Reardon - {{ site.time | date: '%Y' }}</p>
+        </div>
 
-        </footer>
-        <!-- JavaScript !-->
-        <script>
-          var cb = function() {
+      </footer>
+      <!-- JavaScript !-->
+      <script>
+        var cb = function() {
           var l = document.createElement('link'); l.rel = 'stylesheet';
           l.href = '/css/style.css';
           var h = document.getElementsByTagName('head')[0]; h.appendChild(l); };
           var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-                    webkitRequestAnimationFrame || msRequestAnimationFrame;
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
           if (raf) raf(cb);
           else window.addEventListener('load', cb);
-      </script>
-        <script src="/js/fonts.js"></script>
+        </script>
+        <script>WebFontConfig={google:{families:["Lato:300,400:latin","Press+Start+2P::latin"]}},function(){var t=document.createElement("script");t.src=("https:"==document.location.protocol?"https":"http")+"://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js",t.type="text/javascript",t.async="true";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}();</script>
         <script src="/bower_components/jquery/dist/jquery.min.js"></script>
         <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
         <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        ga('create', 'UA-56805175-1', 'auto');
-        ga('send', 'pageview');
+          ga('create', 'UA-56805175-1', 'auto');
+          ga('send', 'pageview');
 
-      </script>
-    </body>
-</html>
+        </script>
+      </body>
+      </html>
