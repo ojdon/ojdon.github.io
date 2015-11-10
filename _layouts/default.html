@@ -72,8 +72,22 @@
           else window.addEventListener('load', cb);
         </script>
         <script>WebFontConfig={google:{families:["Lato:300,400:latin","Press+Start+2P::latin"]}},function(){var t=document.createElement("script");t.src=("https:"==document.location.protocol?"https":"http")+"://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js",t.type="text/javascript",t.async="true";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}();</script>
-        <script src="/bower_components/jquery/dist/jquery.min.js"></script>
-        <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+
+        <!-- Deferred jQuery.min.js & Bootstrap.min.js !-->
+        <script>
+
+        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+        var jQLoaded = false;
+
+        var jqBoot = function() {
+          var bootScript = document.createElement('script');
+          bootScript.src = '/js/jqBoot.js';
+          var body = document.getElementsByTagName('body')[0]; body.appendChild(bootScript); };
+          
+          if (raf && jQLoaded === true) raf(jqBoot);
+          else window.addEventListener('load', jqBoot);
+        </script>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
