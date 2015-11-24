@@ -1,7 +1,5 @@
 ojdon.github.io
 ===============
-
-# Project Summary
 This is the repository for my website that is powered by Jekyll and Github Pages. It features my portfolio of industry and university projects and my blog which covers a range of topics around the web including open source software discussion and other guides, tips and tricks!
 
 # About Me
