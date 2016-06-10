@@ -1,0 +1,25 @@
+{
+  "name": "ojdon.github.io",
+  "homepage": "https://github.com/ojdon/ojdon.github.io",
+  "authors": [
+    "Ollie Reardon <ojreardon@gmail.com>"
+  ],
+  "description": "Personal site of Ollie Reardon",
+  "main": "index.html",
+  "keywords": [
+    "gamedev",
+    "webdev"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "font-awesome": "~4.4.0"
+  }
+}
