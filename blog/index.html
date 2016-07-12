@@ -39,7 +39,7 @@ description: A blog that is used as a resource for web development and game deve
               {% elsif page == 1 %}
                 <li><a href="{{ '/blog/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
               {% else %}
-                <li><a href="{{ site.paginate_path | replace: '//', '/' | replace: '/blog/blog/', '/blog/' | replace: ':num', page }}">{{ page }}</a></li>
+                <li><a href="{{ site.paginate_path  | prepend: site.baseurl | replace: '//', '/' | replace: '/blog/blog/', '/blog/' | replace: ':num', page }}">{{ page }}</a></li>
               {% endif %}
             {% endfor %}
 
