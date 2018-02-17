@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This is how I earn Bitcoin for free!"
+title: "How I earn Bitcoin for free!"
 description: Do you to get into the new and exciting world of Bitcoin? Want to do it for free? This is how I've been earning Bitcoin for free.
 date:   2018-02-17 12:50:00
 categories: bitcoin
