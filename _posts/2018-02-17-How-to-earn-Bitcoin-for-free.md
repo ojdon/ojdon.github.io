@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "This is how I earn Bitcoin for free!"
-description: Want to get into the new and exciting world of Bitcoin? Want to do it for free? This is how I've been earning Bitcoin for free.
-date:   2018-02-17 14:55:00
-categories:bitcoin
+title: "This is how I earn Bitcoin for free!"
+description: Do you to get into the new and exciting world of Bitcoin? Want to do it for free? This is how I've been earning Bitcoin for free.
+date: 2018-02-17 12:25:00
+categories: bitcoin
 ---
 
 Bitcoin is one of the biggest players in the exciting new world of cryptocurrency. But are you still unsure in investing in some? Well, I have a nice solution to obtaining Bitcoin without investing. 
