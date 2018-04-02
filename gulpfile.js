@@ -1,13 +1,14 @@
 var sass_dir = [
-    './scss/style.scss'],
+    './assets/scss/style.scss'],
     js_dir = [
+    './node_modules/jquery/dist/jquery.slim.js',
     './node_modules/popper.js/dist/umd/popper.js',
     './node_modules/bootstrap/dist/js/bootstrap.js',
-    './js/scripts.js'],
-    js_output_dir = './js',
-    css_dir = './css',
+    './assets/js/scripts.js'],
+    js_output_dir = './assets/js',
+    css_dir = './assets/css',
     fonts_dir = ['./node_modules/font-awesome/fonts/*'],
-    fonts_output_dir = './fonts/';
+    fonts_output_dir = './assets/fonts/';
 
 var gulp = require('gulp'),
     watch = require('gulp-watch'),

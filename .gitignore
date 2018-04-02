@@ -1,10 +1,10 @@
 _site
-*.ai
 Gemfile.lock
-assets/100% /webdesign 100%.png
-assets/200%/webdesign 200%.png
 node_modules/
 bower_components/
+assets/css/
+assets/fonts/
+assets/js/
+.DS_Store
 *.scssc
-
 *.map
