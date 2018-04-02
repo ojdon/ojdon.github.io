@@ -14,7 +14,7 @@ What is the catch? Well, the reason why they're giving you small amounts of Bitc
 
 Click the banner below to get started and earning free bitcoin!
 
-<a href="https://freebitco.in/?r=2741724" class="text-center" style="margin: 0 auto"><img class="image-center img-center img-responsive" src="https://static1.freebitco.in/banners/468x60-3.png"/></a>
+<a href="https://freebitco.in/?r=2741724" class="text-center" style="margin: 0 auto"><img class="image-center img-center img-fluid" src="https://static1.freebitco.in/banners/468x60-3.png"/></a>
 
 Hope it helps you to get into the world of Bitcoin! Enjoy!
 

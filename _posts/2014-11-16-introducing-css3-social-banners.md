@@ -5,7 +5,7 @@ description: CSS3 Social Banners is a free and open source project, for other we
 date:   2014-11-16 23:00:00
 categories: projects
 ---
-<div class="text-center"> <img src="{{ site.url }}/assets/blog/20141116/logo.png" class="img-responsive"/> </div>
+<div class="text-center"> <img src="{{ site.url }}/assets/blog/20141116/logo.png" class="img-fluid"/> </div>
 <br />
 Tonight, I have developed and released a small CSS library of CSS3 based Social Banners. It aims to be minimal and inspired by modern web design trends such as the Flat UI. The library includes several social platforms such as Facebook, Twitter, GitHub and Reddit. The CSS library is free and open source and the GitHub repository can be found [here](https://github.com/ojdon/css3-social-banners).
 

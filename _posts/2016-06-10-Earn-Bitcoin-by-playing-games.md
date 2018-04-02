@@ -7,7 +7,7 @@ categories: gaming
 ---
 
 <div class="image-center">
-  <img src="http://i.imgur.com/hgpWhoH.png" class="img-responsive text-center" alt="Bitcoin Logo" title="Bitcoin Logo"/>
+  <img src="http://i.imgur.com/hgpWhoH.png" class="img-fluid text-center" alt="Bitcoin Logo" title="Bitcoin Logo"/>
 </div>
 
 Ever wanted to earn some Bitcoin but not too sure where to start? Here is a nice, easy stepping stone into the digital currency world. [Bitjoy](https://www.bitjoy.io) offer a service for game developers to integrate their platform into mobile games.

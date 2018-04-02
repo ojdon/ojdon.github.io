@@ -36,7 +36,7 @@ While hardware upgrades are going to provide the best performance boosts for you
 While the ‘Genie’ effect when opening/closing application windows to the dock look cool when you first get your Mac, it’s slowing your workflow down each time you do it by a few milliseconds, which all adds up throughout the day. To change this to a quicker ‘Scale’ effect simply use these following steps: 
 
 <div class="image-center">
-  <img src="https://res.cloudinary.com/ojdon/image/upload/q_80/v1516457685/macOS%20Performance/macos-dock-performance_ziodmo.png" class="img-responsive text-center" alt="Dock settings in macOS which ‘Scale effect’ selected."/>
+  <img src="https://res.cloudinary.com/ojdon/image/upload/q_80/v1516457685/macOS%20Performance/macos-dock-performance_ziodmo.png" class="img-fluid text-center" alt="Dock settings in macOS which ‘Scale effect’ selected."/>
 </div>
 
 1. Open the ‘Settings’ application
@@ -47,7 +47,7 @@ While the ‘Genie’ effect when opening/closing application windows to the doc
 There are a few hidden options that also make macOS feel much snappier. Simply follow the below steps to achieve this: 
 
 <div class="image-center">
-  <img src="https://res.cloudinary.com/ojdon/image/upload/v1516457685/macOS%20Performance/reduce-motion-transparency-macos_awyp47.png" class="img-responsive text-center" alt="Accessibility options screenshot in macOS showing ‘Reduce motion’ and ‘Reduce transparency’ options checked."/>
+  <img src="https://res.cloudinary.com/ojdon/image/upload/v1516457685/macOS%20Performance/reduce-motion-transparency-macos_awyp47.png" class="img-fluid text-center" alt="Accessibility options screenshot in macOS showing ‘Reduce motion’ and ‘Reduce transparency’ options checked."/>
 </div>
 
 1. Open the Settings application again
@@ -61,7 +61,7 @@ Feels much faster, right?
 If you don’t have the time or funds to replace Mac’s slow traditional hard drive then disabling Spotlight indexing will help your Mac from grinding to a holt. The downside to this is that you can’t quickly search for files, such as documents, using the search icon on the top right of your Mac. If you don’t use this feature, then you can disable Spotlight Indexing as follows: 
 
 <div class="image-center">
-  <img src="https://res.cloudinary.com/ojdon/image/upload/v1516457685/macOS%20Performance/reduce-spotlight-indexing_mrh4hc.png" class="img-responsive text-center" alt="Spotlight Indexing Options screenshot in macOS showing everything unchecked."/>
+  <img src="https://res.cloudinary.com/ojdon/image/upload/v1516457685/macOS%20Performance/reduce-spotlight-indexing_mrh4hc.png" class="img-fluid text-center" alt="Spotlight Indexing Options screenshot in macOS showing everything unchecked."/>
 </div>
 
 1. Open the Settings application
