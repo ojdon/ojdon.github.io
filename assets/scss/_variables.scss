@@ -1,19 +1,26 @@
+/* Palette */
 $white: #FEFEFE;
 $black: #111;
 
-$red:     #FB2700;
-$pink:    #FFA6B2;
-$orange:  #FF7500;
-$yellow:  #FDB500;
-$green:   #53B233;
-$cyan:    #61EFF4;
-$blue: 	  #3B4279;
-$purple:  #9C338B;
+$red:     #e74c3c;
+$orange:  #e67e22;
+$yellow:  #f1c40f;
+$green:   #2ecc71;
+$blue: 	  #3498db;
+$purple:  #8e44ad;
 
+/* Options */
 $enable-rounded: false;
+
+/* links */
+$link-hover-decoration: none;
+$link-color: $pink;
+$link-hover-color: darken($link-color, 15%);
 
 $font-family-sans-serif: 'Quicksand', sans-serif;
 $headings-font-family: 'Press Start 2P', monospace;
 $headings-line-height: $line-height-base;
 $hr-border-width: 2px;
 
+/* Navbar */
+$navbar-dark-color: $white;

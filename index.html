@@ -6,7 +6,7 @@ description: A Web Developer by day and a Game Developer by Night with experienc
 <div class="skyDay content">
 	<div class="container">
 		<h1 class="homeTitle fadein text-center text-uppercase">I am Ollie Reardon</h1>
-		<p class="homeSubtitle fadein text-center text-uppercase">Web Developer by Day...<br>Game Developer by Night!</p>
+		<h2 class="homeSubtitle fadein text-center text-uppercase">Web Developer by Day...<br>Game Developer by Night!</h2>
 	</div>
 </div>
 <div class="groundDay"></div>
@@ -19,15 +19,39 @@ description: A Web Developer by day and a Game Developer by Night with experienc
 			<p>I have had the experience of the entire Web development process, from developing brand new projects, to maintaining existing ones. Giving me the ability to design, maintain and develop any web-based project you need.</p>
 
 			<p>In my spare time, I enjoy creating game concepts. From creating fun gameplay mechanics to different methods of developing a video game for a varitey of different platforms from desktop, mobile, web and consoles!</p>
-
-			<p>Feel free to look into my hobbies even further by visting my blog where I keep readers up to date with my latest projects. I also write blog posts for the <a href="https://rapidweb.biz/news/author/ollie/">Rapid Web Blog</a> where I cover a range of topics regarding mobile-first responsive web design and development.</p> 
-				
-			<p>Want to see a sample of my previous work? View my <a href="/portfolio">portfolio</a>, <a href="//github.com/ojdon">GitHub profile</a> and <a href="/skills">skills page</a>.</p>
 			
-			<p>Wish to keep in touch? Contact me or follow me on <a href="//twitter.com/ojdon">Twitter</a> or <a href="//plus.google.com/111804847061500742496">Google+</a>.</p>
-			<hr>
+			<div class="row my-5">
+				<div class="col-sm-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title text-center">Portfolio</h3>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<a href="#" class="btn btn-block btn-primary">Go somewhere</a>
+						</div>
+					</div>			
+				</div>
+				<div class="col-sm-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title text-center">Skillset</h3>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<a href="#" class="btn btn-block btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title text-center">Blog</h3>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<a href="#" class="btn btn-block btn-primary">Go somewhere</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
 			{% assign post = site.posts.first %}
-	  		{% assign content = post.content %}
+			{% assign content = post.content %}
 			<h2 class="title"><a href="{{ post.url }}">Latest Blog: {{ post.title }}</a></h2>
 			
 			{{ post.excerpt }}
@@ -35,5 +59,5 @@ description: A Web Developer by day and a Game Developer by Night with experienc
 
 			<p>Read the <a href="{{ post.url }}">full article</a>. Make sure to check out the rest of my <a href="/blog/"> blog posts</a>.</p>
 		</div>
-	</div>
+	</div>	
 </div>

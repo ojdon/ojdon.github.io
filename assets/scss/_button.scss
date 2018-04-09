@@ -1,0 +1,5 @@
+.btn {
+	font-family: $headings-font-family;
+	white-space: normal;
+	@extend .text-uppercase;
+}

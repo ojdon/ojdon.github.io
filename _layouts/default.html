@@ -18,7 +18,7 @@
     </head>
     <body>
 
-      <p class="logo text-center text-uppercase py-3"><a href="/">{{ site.name }}</a></p>
+      <p class="logo text-center text-uppercase py-4 m-0"><a href="/">{{ site.name }}</a></p>
 
       <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
         
@@ -49,7 +49,7 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-7 recent-posts">
-              <h3 class="heading">Recent Blog Posts</h3>
+              <h4 class="heading">Recent Blog Posts</h4>
               <ul class="list-unstyled posts">
                 {% for post in site.posts %}
                 <li><span>{{ post.date | date_to_string }}</span>: <a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -57,10 +57,10 @@
               </ul>
             </div>
             <div class="col-sm-5 contact-me text-center">
-              <h3 class="heading text-center">Contact Me</h3>
-              <p><a href="//twitter.com/ojdon" target="_blank" rel="noopener"><span class="social-icon twitter">TWITTER</span></a></p>
-              <p><a href="//plus.google.com/111804847061500742496" target="_blank" rel="noopener"><span class="social-icon googleplus">GOOGLE+</span></a></p>
-              <p><a href="//github.com/ojdon" target="_blank"  rel="noopener"><span class="social-icon github">GITHUB</span></a></p>
+              <h4 class="heading text-center">Contact Me</h4>
+              <p><a href="//twitter.com/ojdon" target="_blank" rel="noopener" class="btn btn-primary btn-block btn-lg"><span class="social-icon twitter">TWITTER</span></a></p>
+              <p><a href="//plus.google.com/111804847061500742496" target="_blank" rel="noopener" class="btn btn-primary btn-block btn-lg"><span class="social-icon googleplus">GOOGLE+</span></a></p>
+              <p><a href="//github.com/ojdon" target="_blank"  rel="noopener" class="btn btn-primary btn-block btn-lg"><span class="social-icon github">GITHUB</span></a></p>
             </div>
           </div>
           <p class="text-center">Ollie Reardon - {{ site.time | date: '%Y' }}</p>
