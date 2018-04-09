@@ -7,6 +7,7 @@
   <title>{{ page.title }} | {{ site.name }}</title>
   {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
   <meta name="author" content="Oliver Reardon">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Quicksand" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/style.min.css">
   <link rel="icon" href="/favicon.ico">
   <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
@@ -17,13 +18,16 @@
     </head>
     <body>
 
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand text-center text-uppercase" href="/">{{ site.name }}</a>
+      <p class="logo text-center text-uppercase py-3"><a href="/">{{ site.name }}</a></p>
+
+      <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+        
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
             <li class="nav-item">
               <a class="nav-link" href="/blog/">Blog</a>
             </li>
