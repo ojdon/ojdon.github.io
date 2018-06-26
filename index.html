@@ -12,53 +12,48 @@ description: A Web Developer by day and a Game Developer by Night with experienc
 <div class="groundDay"></div>
 <div class="groundDayTiles"></div>
 <div class="container mainBody fadein p-5">
-	<div class="row">
+	<p>Hello World! I am a web developer, who is currently located in the West Midlands of England. I have studied at Staffordshire University for a First degree in Web Development. I work at <a href="https://lesniakswann.com">Lesniak Swann</a>, where I have experience and knowledge in web development, web design, Search Engine Optimization and Ecommerce.</p>
 
-		<div class="col-md-10 col-md-offset-1">
-			<p>Hello World! I am a web developer, who is currently located in the West Midlands of England. I have studied at Staffordshire University for a First degree in Web Development. I work at <a href="https://lesniakswann.com">Lesniak Swann</a>, where I have experience and knowledge in web development, web design, Search Engine Optimization and Ecommerce.</p>
+	<p>I have had the experience of the entire Web development process, from developing brand new projects, to maintaining existing ones. Giving me the ability to design, maintain and develop any web-based project you need.</p>
 
-			<p>I have had the experience of the entire Web development process, from developing brand new projects, to maintaining existing ones. Giving me the ability to design, maintain and develop any web-based project you need.</p>
+	<p>In my spare time, I enjoy creating game concepts. From creating fun gameplay mechanics to different methods of developing a video game for a varitey of different platforms from desktop, mobile, web and consoles!</p>
 
-			<p>In my spare time, I enjoy creating game concepts. From creating fun gameplay mechanics to different methods of developing a video game for a varitey of different platforms from desktop, mobile, web and consoles!</p>
-			
-			<div class="row my-5">
-				<div class="col-sm-4">
-					<div class="card align-items-stretch h-100">
-						<div class="card-body">
-							<h3 class="card-title text-center">Portfolio</h3>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-block btn-primary">See Work</a>
-						</div>
-					</div>			
+	<div class="row my-5">
+		<div class="col-sm-4">
+			<div class="card align-items-stretch h-100">
+				<div class="card-body d-flex align-items-end flex-column">
+					<h3 class="card-title w-100 text-center">Portfolio</h3>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="btn btn-block btn-primary mt-auto">See Work</a>
 				</div>
-				<div class="col-sm-4">
-					<div class="card align-items-stretch h-100">
-						<div class="card-body">
-							<h3 class="card-title text-center">Skillset</h3>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-block btn-primary">View Skills</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="card align-items-stretch h-100">
-						<div class="card-body">
-							<h3 class="card-title text-center">Blog</h3>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-							<a href="#" class="btn btn-block btn-primary">Read Articles</a>
-						</div>
-					</div>
+			</div>			
+		</div>
+		<div class="col-sm-4">
+			<div class="card align-items-stretch h-100">
+				<div class="card-body d-flex align-items-end flex-column">
+					<h3 class="card-title w-100 text-center">Skillset</h3>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="btn btn-block btn-primary mt-auto">View Skills</a>
 				</div>
 			</div>
-
-			{% assign post = site.posts.first %}
-			{% assign content = post.content %}
-			<h2 class="title"><a href="{{ post.url }}">Latest Blog: {{ post.title }}</a></h2>
-			
-			{{ post.excerpt }}
-
-
-			<p>Read the <a href="{{ post.url }}">full article</a>. Make sure to check out the rest of my <a href="/blog/"> blog posts</a>.</p>
 		</div>
-	</div>	
+		<div class="col-sm-4">
+			<div class="card align-items-stretch h-100">
+				<div class="card-body d-flex align-items-end flex-column">
+					<h3 class="card-title w-100 text-center">Blog</h3>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="btn btn-block btn-primary mt-auto">Read Articles</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	{% assign post = site.posts.first %}
+	{% assign content = post.content %}
+	<h3 class="title">Latest Blog: {{ post.title }}</h3>
+
+	{{ post.excerpt }}
+
+	<p class="text-center"><a href="{{ post.url }}" class="btn mt-3 btn-primary btn-lg">Read Full Article</a></p>
 </div>
+

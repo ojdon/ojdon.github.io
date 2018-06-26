@@ -7,7 +7,6 @@
   <title>{{ page.title }} | {{ site.name }}</title>
   {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
   <meta name="author" content="Oliver Reardon">
-  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Quicksand" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/style.min.css">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/site/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/site/favicon-32x32.png">
@@ -24,33 +23,34 @@
       <![endif]-->
     </head>
     <body>
+      <header>
+        <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark" style="align-self: flex-start">
 
-      <header class="w-100">
-        <p class="logo text-center text-uppercase py-4 m-0"><a href="/">{{ site.name }}</a></p>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand logo" href="/">
+            OLLIE REARDON
+          </a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="/blog/">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/skills/">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/portfolio/">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact/">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </header>
-      <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark" style="align-self: flex-start">
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
-            <li class="nav-item">
-              <a class="nav-link" href="/blog/">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/skills/">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/portfolio/">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contact/">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
       {{ content }}
       <footer class="bg-dark text-white pt-5 pb-3 mt-5">
         <div class="container">

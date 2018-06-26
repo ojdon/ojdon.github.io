@@ -1,19 +1,17 @@
-h1,h2,h3,h4,h5,h6, .logo {
+h1,h2,h3,h4,h5,h6, .logo, .homeTitle {
 	@extend .text-uppercase;
 	color: $yellow;
 	text-shadow: 
-				0 1px $purple,
-				0 2px $purple,
-				0 3px $purple,
-				0 4px $purple,
-				0 5px $purple;
+				0 1px $red,
+				0 2px $red,
+				0 3px $red,
+				0 4px $red,
+				0 5px $red;
 }
-
-.logo {
+.navbar-brand {
+	color: $yellow !important;
+}
+.logo, .homeTitle {
 	font-family: $headings-font-family;
-	font-size: $h1-font-size;
 	color: $yellow;
-	a {
-		color: $yellow;
-	}
 }

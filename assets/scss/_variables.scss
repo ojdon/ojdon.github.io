@@ -2,19 +2,37 @@
 $white: #FEFEFE;
 $black: #111;
 
-$red:     #e74c3c;
+$red:     #EB000B;
 $orange:  #e67e22;
 $yellow:  #f1c40f;
 $green:   #2ecc71;
-$blue: 	  #3498db;
+$blue: 	  #0056b1;
 $purple:  #8e44ad;
+
+$primary:       $blue;
+$success:       $green;
+$info:          $purple;
+$warning:       $yellow;
+$danger:        $red;
+
+$theme-colors: () !default;
+$theme-colors: map-merge((
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+), $theme-colors);
 
 /* Options */
 $enable-rounded: false;
 
 /* links */
 $link-hover-decoration: none;
-$link-color: $pink;
+$link-color: $red;
 $link-hover-color: darken($link-color, 15%);
 
 $font-family-sans-serif: 'Quicksand', sans-serif;
@@ -24,3 +42,4 @@ $hr-border-width: 2px;
 
 /* Navbar */
 $navbar-dark-color: $white;
+
