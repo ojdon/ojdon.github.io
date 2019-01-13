@@ -12,10 +12,9 @@ description: A blog that is used as a resource for web development and game deve
           <div class="card-body">
           <h2 class="card-title">{{ post.title }}</a></h2>
           <hr>
-              <p class="date">{{ post.date | date: "%-d %B %Y" }}</p>
+          <p class="date">{{ post.date | date: "%-d %B %Y" }}</p>
 
-
-          <a class="btn btn-primary btn-block" href="{{ post.url }}">Read Artice</a>
+          <p class="text-center"><a class="btn btn-primary mt-3" href="{{ post.url }}">Read Artice</a></p>
         </div>
       </div>
         {% endfor %}
