@@ -6,7 +6,7 @@ date:   2018-01-20 14:40
 categories: computing
 ---
 
-Where I work at [Rapid Web](https://rapidweb.biz), we are still rocking an old Apple Mac Mini from 2009! We use it as a testing machine to test websites on different versions of Safari and iOS using the iOS simulator that is packaged in with Xcode. It’s very sluggish these days, but it does the job (eventually). However, there are a few tips and tricks that I’ve picked up that can help increase the performance of your aging MacBook, Mac Mini, iMac or MacBook Air. 
+An old 2009 Mac Minis are very sluggish these days, but it does the job (eventually). However, there are a few tips and tricks that I’ve picked up that can help increase the performance of your aging MacBook, Mac Mini, iMac or MacBook Air.
 
 ## Upgrade the RAM
 The most common application used on your Mac is usually your web browser such as Safari, Mozilla Firefox or Google Chrome. These need a lot of memory to temporarily store data quickly such as contents of each tab open. If you’re like me, you tend to have lots of tabs open at a time, this rapidly uses up your available memory. 
