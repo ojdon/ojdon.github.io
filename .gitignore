@@ -1,6 +1,7 @@
 _site
 *.ai
 Gemfile.lock
+.DS_Store
 assets/100% /webdesign 100%.png
 
 assets/200%/webdesign 200%.png

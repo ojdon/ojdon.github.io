@@ -7,3 +7,8 @@ paginate_path: "blog/page:num"
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
+sass:
+  style: compressed # possible values: nested expanded compact compressed
+  load_paths:
+    - _sass
+    - node_modules
