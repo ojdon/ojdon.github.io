@@ -40,8 +40,8 @@ While the ‘Genie’ effect when opening/closing application windows to the doc
 </div>
 
 1. Open the ‘Settings’ application
-1. Click the ‘Dock’ option
-1. Change the dropdown option for ‘Minimize windows using:’ from the ‘Genie effect’ to the ‘Scale effect’.
+2. Click the ‘Dock’ option
+3. Change the dropdown option for ‘Minimize windows using:’ from the ‘Genie effect’ to the ‘Scale effect’.
 
 ### Tame the rest of the visual effects
 There are a few hidden options that also make macOS feel much snappier. Simply follow the below steps to achieve this: 
@@ -51,9 +51,9 @@ There are a few hidden options that also make macOS feel much snappier. Simply f
 </div>
 
 1. Open the Settings application again
-1. Press the ‘Accessibility’ icon
-1. In the left pane, select ‘Display’
-1. Ensure the ‘Reduce motion’ and ‘Reduce transparency’ are both checked.
+2. Press the ‘Accessibility’ icon
+3. In the left pane, select ‘Display’
+4. Ensure the ‘Reduce motion’ and ‘Reduce transparency’ are both checked.
 
 Feels much faster, right?    
 
@@ -65,14 +65,14 @@ If you don’t have the time or funds to replace Mac’s slow traditional hard d
 </div>
 
 1. Open the Settings application
-1. Click the ‘Spotlight’ icon
-1. Ensure everything is unchecked like in the image above.
+2. Click the ‘Spotlight’ icon
+3. Ensure everything is unchecked like in the image above.
 
 ## Bonus: Increase iOS Simulator performance
 Here is a quick tip for other Web Developers who are using the iOS simulator to test on various iOS setups. Simply scaling the display of the simulated iOS device would mean that there are fewer pixels to render. To achieve this follow the below steps: 
 
 1. In the iOS simulator window select the ‘Window’ menu on the top bar
-1. Select the ‘Scale’ menu item and then try any option that is ‘50%’ or smaller.
+2. Select the ‘Scale’ menu item and then try any option that is ‘50%’ or smaller.
 This will mean that your Mac will have to render at least half of the detail in the iOS frame. 
 
 Hope this helps with all the various ways to get as much of a performance out of your new or old Mac! Make sure you tweet me [on Twitter](https://twitter.com/ojdon) if this has helped you.

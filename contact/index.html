@@ -15,28 +15,32 @@ description: Feel free to use this direct contact form for any questions, feedba
     <div class="col-md-6">
 
       <h2 class="title text-center">Contact me via Email</h2>
-      <form action="http://getsimpleform.com/messages?form_api_token=7f242ea280f454155a1a48bd0596e08d" class="form" method="post">
+      <form action="https://getsimpleform.com/messages?form_api_token=7f242ea280f454155a1a48bd0596e08d" class="form" method="post">
       <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-      <input type='hidden' name='redirect_to' value='http://ojdon.github.io/contact/thank-you/' />
+      <input type='hidden' name='redirect_to' value='https://ojdon.github.io/contact/thank-you/' />
       <!-- all your input fields here.... -->
       <div class="form-group">
-        <label for="name">Name: </label>
-        <input type="text" class="form-control input-lg" placeholder="Your Name..." name="name" />
+        <label for="name">Name:
+          <input id="name" type="text" class="form-control input-lg" placeholder="Your Name..." name="name" />
+        </label>
       </div>
 
       <div class="form-group">
-        <label for="email">Email: </label>
-        <input type="email" class="form-control input-lg" name="email" placeholder="Only used to reply back to you directly!..." value="">
+        <label for="email">Email:
+          <input id="email" type="email" class="form-control input-lg" name="email" placeholder="Only used to reply back to you directly!..." value="">
+        </label>
       </div>
 
       <div class="form-group">
-        <label for="title">Email Subject: </label>
-        <input type="text" class="form-control input-lg" placeholder="Email Subject..." name="title" />
+        <label for="title">Email Subject:
+          <input id="title" type="text" class="form-control input-lg" placeholder="Email Subject..." name="title" />
+        </label>
       </div>
 
       <div class="form-group">
-        <label for="message">Email Message: </label>
-        <textarea name='message' class="form-control input-lg" placeholder="Type your message in here..."></textarea>
+        <label for="message">Email Message:
+          <textarea id="message"  name='message' class="form-control input-lg" placeholder="Type your message in here..."></textarea>
+        </label>
       </div>
       <br />
 
@@ -48,8 +52,6 @@ description: Feel free to use this direct contact form for any questions, feedba
   </div>
   <div class="col-md-6 text-center">
       <h2 class="title text-center">Stay in touch</h2>
-      <a class="text-center" href="//twitter.com/ojdon" target="_blank" rel="noopener"><span class="social-icon twitter">TWITTER</span></a>
-      <a class="text-center" href="//plus.google.com/111804847061500742496" target="_blank" rel="noopener"><span class="social-icon googleplus">GOOGLE+</span></a>
       <a class="text-center" href="//github.com/ojdon" target="_blank" rel="noopener"><span class="social-icon github">GITHUB</span></a>
     </div>
   </div>
