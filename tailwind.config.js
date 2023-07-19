@@ -1,14 +1,18 @@
 module.exports = {
-  purge: [
+  content: [
     './_includes/**/*.html',
     './_layouts/**/*.html',
     './_posts/*.md',
     './*.html',
   ],
-  darkMode: false,
   theme: {
-    extend: {},
+    fontFamily: {
+        'heading': ['Urbanist', 'sans-serif'],
+        'body': ['Merriweather', 'serif'],
+
+    }
   },
+
   variants: {},
   plugins: [
     require('@tailwindcss/typography'),

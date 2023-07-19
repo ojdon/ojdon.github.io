@@ -7,47 +7,38 @@
   <title>{{ page.title }} | {{ site.name }}</title>
   {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
   <meta name="author" content="Oliver Reardon">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="/main.css">
   <link rel="icon" href="/favicon.ico">
   <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap" rel="stylesheet">
+
       </head>
       <body>
-       <div class="navbar navbar-inverse" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <a class="navbar-brand text-center text-uppercase" href="/">{{ site.name }}</a>
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="fa fa-bars"></span> Menu
-            </button>
-          </div>
-          <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="/blog/">Blog</a></li>
-              <li><a href="/skills/">Skills</a></li>
-              <li><a href="/portfolio/">Portfolio</a></li>
-              <li><a href="/contact/">Contact</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </div>
+<!--       <div class="navbar navbar-inverse" role="navigation">-->
+<!--        <div class="container">-->
+<!--          <div class="navbar-header">-->
+<!--            <a class="navbar-brand text-center text-uppercase" href="/">{{ site.name }}</a>-->
+<!--            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">-->
+<!--              <span class="fa fa-bars"></span> Menu-->
+<!--            </button>-->
+<!--          </div>-->
+<!--          <div class="collapse navbar-collapse">-->
+<!--            <ul class="nav navbar-nav">-->
+<!--              <li><a href="/blog/">Blog</a></li>-->
+<!--              <li><a href="/skills/">Skills</a></li>-->
+<!--              <li><a href="/portfolio/">Portfolio</a></li>-->
+<!--              <li><a href="/contact/">Contact</a></li>-->
+<!--            </ul>-->
+<!--          </div>&lt;!&ndash;/.nav-collapse &ndash;&gt;-->
+<!--        </div>-->
+<!--      </div>-->
       {{ content }}
       <footer>
         <div class="container">
-          <div class="row">
-            <div class="col-sm-7 recent-posts">
-              <h3 class="heading">Recent Blog Posts</h3>
-              <ul class="list-unstyled posts">
-                {% for post in site.posts %}
-                <li><span>{{ post.date | date_to_string }}</span>: <a href="{{ post.url }}">{{ post.title }}</a></li>
-                {% endfor %}
-              </ul>
-            </div>
-            <div class="col-sm-5 contact-me">
-              <h3 class="heading text-center">Contact Me</h3>
-             <a href="https://github.com/ojdon" target="_blank"  rel="noopener"><span class="social-icon github">GITHUB</span></a>
-            </div>
-          </div>
-          <p class="text-center">Ollie Reardon - {{ site.time | date: '%Y' }}</p>
+
+          <p class="p-8 py-16">Ollie Reardon - {{ site.time | date: '%Y' }}</p>
         </div>
 
       </footer>

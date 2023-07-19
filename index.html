@@ -3,36 +3,76 @@ layout: default
 title: "Web Developer by Day, Game Developer by Night"
 description: A Web Developer by day and a Game Developer by Night with experience ranging in SEO to E-commerce. Graduate Web Development student based in Stafford, West Midlands in England. 
 ---
-<div class="skyDay content">
-	<div class="container">
-		<h1 class="homeTitle fadein text-center text-uppercase">I am Ollie Reardon</h1>
-		<p class="homeSubtitle fadein text-center text-uppercase">Web Developer by Day...<br>Game Developer by Night!</p>
-	</div>
-</div>
-<div class="groundDay"></div>
-<div class="groundDayTiles"></div>
-<div class="container mainBody fadein">
-	<div class="row">
-		<div class="col-md-10 col-md-offset-1">
-			<p>Hello World! I am a web developer, who is currently located in the West Midlands of England. I have studied at Staffordshire University for a First degree in Web Development. I have experience and knowledge in full-stack web development, web design, Search Engine Optimization and Ecommerce.</p>
+<main class="snap-mandatory snap-y">
+    <section class="hero relative snap-center h-screen bg-[#ABD8E3] text-white text-center">
+        <h1 class="text-7xl font-heading animate-fade-in-slide-up pt-[25vh] mb-8">
+            Ollie Reardon
+        </h1>
+        <h2 class="text-5xl font-heading">Web Developer by Day, Game Developer by Night!</h2>
+        <p><a href="#"></a></p>
 
-			<p>I have had the experience of the entire Web development process, from developing brand new projects, to maintaining existing ones. Giving me the ability to design, maintain and develop any web-based project you need.</p>
+    </section>
 
-			<p>In my spare time, I enjoy creating game concepts. From creating fun gameplay mechanics to different methods of developing a video game for a varitey of different platforms from desktop, mobile, web and consoles!</p>
+    <section class="snap-center h-screen bg-blue-500 text-white">
+        <div class="flex flex-col max-w-7xl mx-auto p-8 py-16">
+            <h2 class="text-5xl font-heading font-bold mb-8">About</h2>
+        </div>
+    </section>
 
-			<p>Feel free to look into my hobbies even further by visting my blog where I keep readers up to date with my latest projects.</p> 
-				
-			<p>Want to see a sample of my previous work? View my <a href="/portfolio">portfolio</a>, <a href="//github.com/ojdon">GitHub profile</a> and <a href="/skills">skills page</a>.</p>
-			
-			<hr>
-			{% assign post = site.posts.first %}
-	  		{% assign content = post.content %}
-			<h2 class="title"><a href="{{ post.url }}">Latest Blog: {{ post.title }}</a></h2>
-			
-			{{ post.excerpt }}
+    <section class="snap-center h-screen bg-purple-500 text-white">
+        <div class="flex flex-col max-w-7xl mx-auto p-8 py-16">
+            <h2 class="text-5xl font-heading font-bold mb-8">My Expertise</h2>
+        </div>
+    </section>
+
+    <section class="snap-center h-screen bg-green-500 text-white">
+        <div class="flex flex-col max-w-7xl mx-auto p-8 py-16">
+            <h2 class="text-5xl font-heading font-bold mb-8">My Thoughts</h2>
+            <ul class="list-none posts flex flex-row grid grid-cols-2 lg:grid-cols-4">
+                {% for post in site.posts %}
+                <li class="bg-white text-black">
+                     <a href="{{ post.url }}">
+                         {{ post.title }} <br>
+                         <span>{{ post.date | date_to_string }}</span>
+                     </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </section>
+</main>
 
 
-			<p>Read the <a href="{{ post.url }}">full article</a>. Make sure to check out the rest of my <a href="/blog/"> blog posts</a>.</p>
-		</div>
-	</div>
-</div>
+<!--<div class="skyDay content">-->
+<!--	<div class="container">-->
+<!--		<h1 class="homeTitle fadein text-center text-uppercase">I am Ollie Reardon</h1>-->
+<!--		<p class="homeSubtitle fadein text-center text-uppercase">Web Developer by Day...<br>Game Developer by Night!</p>-->
+<!--	</div>-->
+<!--</div>-->
+<!--<div class="groundDay"></div>-->
+<!--<div class="groundDayTiles"></div>-->
+<!--<div class="container mainBody fadein">-->
+<!--	<div class="row">-->
+<!--		<div class="col-md-10 col-md-offset-1">-->
+<!--			<p>Hello World! I am a web developer, who is currently located in the West Midlands of England. I have studied at Staffordshire University for a First degree in Web Development. I have experience and knowledge in full-stack web development, web design, Search Engine Optimization and Ecommerce.</p>-->
+
+<!--			<p>I have had the experience of the entire Web development process, from developing brand new projects, to maintaining existing ones. Giving me the ability to design, maintain and develop any web-based project you need.</p>-->
+
+<!--			<p>In my spare time, I enjoy creating game concepts. From creating fun gameplay mechanics to different methods of developing a video game for a varitey of different platforms from desktop, mobile, web and consoles!</p>-->
+
+<!--			<p>Feel free to look into my hobbies even further by visting my blog where I keep readers up to date with my latest projects.</p> -->
+<!--				-->
+<!--			<p>Want to see a sample of my previous work? View my <a href="/portfolio">portfolio</a>, <a href="//github.com/ojdon">GitHub profile</a> and <a href="/skills">skills page</a>.</p>-->
+<!--			-->
+<!--			<hr>-->
+<!--			{% assign post = site.posts.first %}-->
+<!--	  		{% assign content = post.content %}-->
+<!--			<h2 class="title"><a href="{{ post.url }}">Latest Blog: {{ post.title }}</a></h2>-->
+<!--			-->
+<!--			{{ post.excerpt }}-->
+
+
+<!--			<p>Read the <a href="{{ post.url }}">full article</a>. Make sure to check out the rest of my <a href="/blog/"> blog posts</a>.</p>-->
+<!--		</div>-->
+<!--	</div>-->
+<!--</div>-->
