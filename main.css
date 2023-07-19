@@ -28,12 +28,15 @@
     overflow: hidden;
 }
 
+.hero::before, .hero::after, .level1::after, .level2::after {
+}
+
 /* Create a pseudo-element for the first background layer */
 .hero::before {
-    content: "";
     /* Set the first background image */
     background: url('/assets/img/bg/scroll_bg_far.png') bottom center repeat-x;
 
+    content: "";
     /* Set the position to absolute to position the background layer */
     position: absolute;
     bottom: 0;
@@ -48,9 +51,11 @@
 
   /* Create a pseudo-element for the second background layer */
   .hero::after {
-    content: "";
-    /* Set the second background image */
+      /* Set the second background image */
       background: url('/assets/img/bg/hills-scroll.png') bottom center repeat-x;
+
+    content: "";
+
 
       /* Set the position to absolute to position the background layer */
     position: absolute;
@@ -62,6 +67,36 @@
     height: 100%;
   }
 
+.level1::after {
+    /* Set the second background image */
+    background: url('/assets/img/bg/level1.png') bottom center repeat-x;
+
+    content: "";
+
+    /* Set the position to absolute to position the background layer */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* Set the initial layer size, adjust as needed */
+    width: calc(2048px * 3);
+    height: 100%;
+}
+
+.level2::after {
+    /* Set the second background image */
+    background: url('/assets/img/bg/level2.png') bottom center repeat-x;
+
+    content: "";
+    /* Set the position to absolute to position the background layer */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* Set the initial layer size, adjust as needed */
+    width: calc(2048px * 3);
+    height: 100%;
+}
 /*@media (prefers-color-scheme: dark) {*/
 /*    .hero {*/
 /*        background: #151919;*/

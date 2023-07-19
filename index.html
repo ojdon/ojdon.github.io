@@ -13,26 +13,26 @@ description: A Web Developer by day and a Game Developer by Night with experienc
 
     </section>
 
-    <section class="snap-center h-screen bg-blue-500 text-white">
+    <section class="level1 relative snap-center h-[150vh] bg-[#abd8e1] text-white">
         <div class="flex flex-col max-w-7xl mx-auto p-8 py-16">
             <h2 class="text-5xl font-heading font-bold mb-8">About</h2>
         </div>
     </section>
 
-    <section class="snap-center h-screen bg-purple-500 text-white">
+    <section class="snap-center bg-gradient-to-b h-[150vh] from-[#88ddde] to-blue-400 text-white">
         <div class="flex flex-col max-w-7xl mx-auto p-8 py-16">
             <h2 class="text-5xl font-heading font-bold mb-8">My Expertise</h2>
         </div>
     </section>
 
-    <section class="snap-center h-screen bg-green-500 text-white">
+    <section class="level2 bg-gradient-to-b relative snap-center h-[150vh] from-blue-400 to-cyan-200 text-white">
         <div class="flex flex-col max-w-7xl mx-auto p-8 py-16">
             <h2 class="text-5xl font-heading font-bold mb-8">My Thoughts</h2>
-            <ul class="list-none posts flex flex-row grid grid-cols-2 lg:grid-cols-4">
+            <ul class="list-none posts flex flex-row grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                 {% for post in site.posts %}
-                <li class="bg-white text-black">
+                <li class="bg-white text-black p-4">
                      <a href="{{ post.url }}">
-                         {{ post.title }} <br>
+                         <h3 class="text-xl">{{ post.title }}</h3>
                          <span>{{ post.date | date_to_string }}</span>
                      </a>
                 </li>

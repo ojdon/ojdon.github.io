@@ -10,3 +10,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-postcss
+
+postcss:
+  cache: false
