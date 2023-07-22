@@ -14,15 +14,15 @@
 }
 
 @keyframes fadeInSlideUp {
-      0% {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      100% {
-        opacity: 1;
-        transform: translateY(0);
-      }
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
     }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 
 .hero {
     overflow: hidden;
@@ -37,12 +37,10 @@
     background: url('/assets/img/bg/scroll_bg_far.png') bottom center repeat-x;
 
     content: "";
-    /* Set the position to absolute to position the background layer */
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    /* Set the initial layer size, adjust as needed */
     width: calc(2048px * 3);
     height: 100%;
     /* Set the initial animation properties */
@@ -53,58 +51,35 @@
   .hero::after {
       /* Set the second background image */
       background: url('/assets/img/bg/hills-scroll.png') bottom center repeat-x;
-
-    content: "";
-
-
-      /* Set the position to absolute to position the background layer */
-    position: absolute;
+      content: "";
+      position: absolute;
       bottom: 0;
       left: 0;
       right: 0;
-    /* Set the initial layer size, adjust as needed */
       width: calc(2048px * 3);
-    height: 100%;
+      height: 100%;
   }
 
 .level1::after {
     /* Set the second background image */
     background: url('/assets/img/bg/level1.png') bottom center repeat-x;
-
     content: "";
-
-    /* Set the position to absolute to position the background layer */
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    /* Set the initial layer size, adjust as needed */
-    width: calc(2048px * 3);
+    max-width: 100%;
     height: 100%;
 }
 
 .level2::after {
     /* Set the second background image */
     background: url('/assets/img/bg/level2.png') bottom center repeat-x;
-
     content: "";
-    /* Set the position to absolute to position the background layer */
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    /* Set the initial layer size, adjust as needed */
-    width: calc(2048px * 3);
+    max-width: 100%;
     height: 100%;
 }
-/*@media (prefers-color-scheme: dark) {*/
-/*    .hero {*/
-/*        background: #151919;*/
-/*    }*/
-/*    .hero::before {*/
-/*        filter: brightness(0.12);*/
-/*    }*/
-/*    .hero::after {*/
-/*        filter: brightness(0.12);*/
-/*    }*/
-/*}*/
