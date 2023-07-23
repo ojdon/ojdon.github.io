@@ -1,0 +1,15 @@
+<section class="level2 bg-gradient-to-b relative snap-center min-h-[150vh] from-blue-400 to-cyan-200 text-white" id="thoughts">
+    <div class="flex flex-col max-w-7xl mx-auto p-8 py-16">
+        <h2 class="text-6xl font-heading font-bold mb-8">My Thoughts</h2>
+        <ul class="list-none posts flex flex-row grid grid-cols-1 md:grid-cols-3 gap-4 mt-8 mb-[15vh]">
+            {% for post in site.posts %}
+            <li class="bg-white text-black p-8">
+                 <a href="{{ post.url }}">
+                     <h3 class="text-xl">{{ post.title }}</h3>
+                     <span>{{ post.date | date_to_string }}</span>
+                 </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
