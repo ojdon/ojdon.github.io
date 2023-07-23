@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     fontFamily: {
         'heading': ['Urbanist', 'sans-serif'],
-        'body': ['Merriweather', 'serif'],
+        'body': ['Work Sans', 'serif'],
 
     }
   },
