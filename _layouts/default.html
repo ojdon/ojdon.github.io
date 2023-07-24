@@ -13,8 +13,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-      </head>
+
+</head>
       <body>
       {{ content }}
       <footer class="flex flex-col md:flex-row py-8">
@@ -42,5 +44,7 @@
             </a>
           </p>
       </footer>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>document.addEventListener("DOMContentLoaded", () => { AOS.init();});</script>
       </body>
       </html>
