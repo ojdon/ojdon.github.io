@@ -1,23 +1,16 @@
 ---
-layout: default
+layout: page
 ---
 <div class="container">
-	<div class="col-xs-12 post-content">
-		<h2>{{ page.title }}</h2>
+	<div class="post-content">
+		<h1 class="my-4">{{ page.title }}</h1>
 		<hr>
-		<div class="row">
-			<div class="col-xs-6">
-				<p class="text-left">{{ page.date | date: "%-d %B %Y" }}</p>
-			</div>
-			<div class="col-xs-6">
-				<p class="meta text-right">Posted by <a href="https://plus.google.com/u/0/111804847061500742496?rel=author">Ollie Reardon</a></p>
-
-			</div>
+		<div class="flex flex-row mb-8">
+			<p class="text-left">{{ page.date | date: "%-d %B %Y" }}</p>
+			<p class="meta ml-auto text-right">Posted by Ollie Reardon</p>
 		</div>
-		<div class="post">
+		<div class="post mb-8">
 			{{ content }}
-			<hr>
-			<p>Join the discussion! Contact me via <a href="https://twitter.com/ojdon">Twitter</a> or <a href="https://plus.google.com/u/0/111804847061500742496?rel=author">Google+</a></p>
 		</div>
 	</div>
 </div>

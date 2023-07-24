@@ -1,24 +1,18 @@
-ojdon.github.io
-===============
-This is the repository for my website that is powered by Jekyll and Github Pages. It features my portfolio of industry and university projects and my blog which covers a range of topics around the web including open source software discussion and other guides, tips and tricks!
+# ojdon.github.io
 
-# About Me
-I'm Ollie Reardon, a graduate student web developer who studied at Staffordshire University for a degree in Web Development.
+## Installation
 
-# Installation
-## Requirements
+### MacOS
 
-* [Compass](http://compass-style.org/install/)
-* [Bower](http://bower.io/)
+```shell
+brew install ruby
+echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
+gem install bundler jekyll --user-install
+```
 
-### Bower 
-* bootstrap-sass
-* font-awesome
+### Ubuntu
 
-## Usage
-### Compass
-In the root directory:
-`compass compile .` 
+See official docs here: https://jekyllrb.com/docs/installation/ubuntu/
 
-# Licence
+## Licence
 This project uses the MIT License.

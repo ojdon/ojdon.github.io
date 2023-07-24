@@ -1,0 +1,142 @@
+---
+---
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@keyframes move-right {
+  0% {
+        transform: translate3d(0, 0, 0);
+      }
+      100% {
+        transform: translate3d(-2048px, 0, 0);
+      }
+}
+
+@keyframes fadeInSlideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+.hero {
+    overflow: hidden;
+}
+
+.hero::before, .hero::after, .level1::after, .level2::after {
+}
+
+/* Create a pseudo-element for the first background layer */
+.hero::before {
+    /* Set the first background image */
+    background: url('/assets/img/bg/scroll_bg_far.png') bottom center repeat-x;
+
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: calc(2048px * 3);
+    height: 100%;
+    /* Set the initial animation properties */
+    animation: move-right 180s linear infinite;
+  }
+
+  /* Create a pseudo-element for the second background layer */
+  .hero::after {
+      /* Set the second background image */
+      background: url('/assets/img/bg/hills-scroll.png') bottom center repeat-x;
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: calc(2048px * 3);
+      height: 100%;
+  }
+
+.level1::after {
+    /* Set the second background image */
+    background: url('/assets/img/bg/level1.png') bottom center repeat-x;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    height: 100%;
+}
+
+.level2::after {
+    /* Set the second background image */
+    background: url('/assets/img/bg/level2.png') bottom center repeat-x;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    height: 100%;
+}
+
+/* Legacy Styling */
+h1,h2,h3,h4,h5,h6 {
+  @apply font-heading;
+  @apply my-8;
+}
+
+hr {
+  @apply my-4;
+}
+
+ol {
+  @apply list-decimal;
+}
+
+ul {
+  @apply list-disc;
+}
+
+ol, ul {
+  @apply ml-6;
+}
+
+p, ol, ul, input {
+  @apply mb-8;
+}
+
+h1 {
+ @apply text-7xl; 
+}
+
+h2 {
+  @apply text-5xl; 
+}
+
+ h3 {
+  @apply text-4xl; 
+ }
+
+ h4 {
+  @apply text-3xl; 
+ }
+
+ h5 {
+  @apply text-2xl; 
+ }
+
+ h6 {
+  @apply text-xl; 
+ }
+
+ input {
+  @apply border;
+  @apply border-solid;
+  @apply border-gray-500;
+  @apply p-4;
+ }

@@ -10,7 +10,7 @@ Finally! I've redone my website after saying that I'll do it for the past year. 
 
 As this website is now hosted on GitHub, home of the largest repository of Free and Open Source Software, it keeps me strict as to keeping my own projects free and open source. Jekyll is going to help me merge my professional portfolio together with my blog, which I hope to share useful information or articles on my many interests.
 
-Hopefully, this website will hit it's proper "Go Live" status in the next few weeks if I am able to keep progressing with my website's development every weekend. Keep a check out on my [website's GitHub repo][ojdon-gh].
+Hopefully, this website will hit it's proper "Go Live" status in the next few weeks if I am able to keep progressing with my website's development every weekend. Keep a look out on my [website's GitHub repo](https://github.com/ojdon/ojdon.github.io).
 
 Thanks for reading and stay tuned!
 [ojdon-gh]: https://github.com/ojdon/ojdon.github.io

@@ -1,22 +1,14 @@
 ---
-layout: default
+layout: page
 title: "Blog"
 description: A blog that is used as a resource for web development and game development tips and tricks. As well as a log of any recent projects.
 ---
 <div class="container mainBody fadein">
-	<div class="row">
-    <div class="col-md-10 col-md-offset-1">
       {% for post in paginator.posts %}
         <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <hr>
-        <div class="row">
-          <div class="col-xs-6">
-            <p class="date">{{ post.date | date: "%-d %B %Y" }}</p>
-          </div>
-          <div class="col-xs-6">
-            <p class="meta text-right">Posted by <a href="https://plus.google.com/u/0/111804847061500742496?rel=author">Ollie Reardon</a></p>
-
-          </div>
+        <div class="flex flex-row">
+            <p class="date">{{ post.date | date: "%-d %B %Y" }}
+            <p class="meta ml-auto text-right">Posted by Ollie Reardon</p>
         </div>
 
         <div class="content">
@@ -24,9 +16,8 @@ description: A blog that is used as a resource for web development and game deve
           <hr>
         </div>
       {% endfor %}
-      <div class="row">
-        <div class="col-xs-12 pull-center">
-          <ul class="pagination ">
+
+          <ul class="pagination flex flex-row list-none ml-0">
             {% if paginator.previous_page %}
               <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-chevron-left"></i> Prev</a></li>
             {% else %}
@@ -35,7 +26,7 @@ description: A blog that is used as a resource for web development and game deve
 
             {% for page in (1..paginator.total_pages) %}
               {% if page == paginator.page %}
-                <li class="active"><a href="#">{{ page }}<span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href="#">{{ page }}<span class="hidden">(current)</span></a></li>
               {% elsif page == 1 %}
                 <li><a href="{{ '/blog/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
               {% else %}
@@ -49,9 +40,4 @@ description: A blog that is used as a resource for web development and game deve
               <li class="disabled"><span>Next</span></li>
             {% endif %}
           </ul>
-        </div>
-      </div>
-
-    </div>
-  </div>
 </div>
