@@ -34,7 +34,7 @@
 /* Create a pseudo-element for the first background layer */
 .hero::before {
     /* Set the first background image */
-    background: url('/assets/img/bg/scroll_bg_far.png') bottom center repeat-x;
+    background: url('/assets/img/bg/scroll_bg_far.webp') bottom center repeat-x;
 
     content: "";
     position: absolute;
@@ -50,7 +50,7 @@
   /* Create a pseudo-element for the second background layer */
   .hero::after {
       /* Set the second background image */
-      background: url('/assets/img/bg/hills-scroll.png') bottom center repeat-x;
+      background: url('/assets/img/bg/hills-scroll.webp') bottom center repeat-x;
       content: "";
       position: absolute;
       bottom: 0;
@@ -62,7 +62,7 @@
 
 .level1::after {
     /* Set the second background image */
-    background: url('/assets/img/bg/level1.png') bottom center repeat-x;
+    background: url('/assets/img/bg/level1.webp') bottom center repeat-x;
     content: "";
     position: absolute;
     bottom: 0;
@@ -74,7 +74,7 @@
 
 .level2::after {
     /* Set the second background image */
-    background: url('/assets/img/bg/level2.png') bottom center repeat-x;
+    background: url('/assets/img/bg/level2.webp') bottom center repeat-x;
     content: "";
     position: absolute;
     bottom: 0;
